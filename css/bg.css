@@ -6,6 +6,9 @@ body {
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   margin: 25px;
   color: rgba(0, 0, 0, 0.8);
