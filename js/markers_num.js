@@ -39,16 +39,23 @@ L.marker([-6211.25, 3854.7], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/tJvWVMTr/Screenshot-2023-01-03-03-00-15-57-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>LS County bank</h3></p>");
   
 L.marker([-5866, 2854], {icon: cardIcon15}).addTo(map)
-    .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://i.postimg.cc/5083LP11/Bolingbroke-Penitentiary-GTAV.png' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Del Perro</h3></p>");
+    .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Del Perro</h3></p>");
   L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
-    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://i.postimg.cc/5083LP11/Bolingbroke-Penitentiary-GTAV.png' data-lightbox='image-4' data-title='Pénitencierhaute sécurité'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
+    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pénitencierhaute sécurité'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
 
   L.marker([-3524.5, 5071.5], {icon: cardIcon17}).addTo(map)
-    .bindPopup("<h2>Yellow Jack Bar</h2><p><a href='https://content.rockstarnews.ru/up/images/4cefa6c429608d139827d9671b1a3cfc.jpg' data-lightbox='image-11' data-title='Yellow Jack Bar'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-3839, 5299.5], {icon: cardIcon18}).addTo(map)
-    .bindPopup("<h2>Grand Senora Desert Trailer Park</h2><p><a href='https://content.rockstarnews.ru/up/images/c321c16b535ba788525acdc91770f705.jpg' data-lightbox='image-11' data-title='Grand Senora Desert Trailer Park'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-3871.25, 4240.5], {icon: cardIcon19}).addTo(map)
-    .bindPopup("<h2>Grand Senora Desert (Rebel Radio station)</h2><p><a href='https://content.rockstarnews.ru/up/images/6f9d9a486e004a27d7120efa2a4202e3.png' data-lightbox='image-11' data-title='Grand Senora Desert (Rebel Radio station)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
+    .bindPopup("<h2>Bar/distillerie</h2><img class='logo' src='https://i.postimg.cc/1Xw94qnY/image.png'><p><a href='https://i.postimg.cc/d32YJcpb/Yellow-Jack-Extension-Interior2.jpg' data-lightbox='image-4' data-title='Bar/distillerie'>Ouvrir le visuel du lieu</a><h3>Yellow Blaine County</h3></p>");
+ 
+ L.marker([-6212, 3658], {icon: cardIcon18}).addTo(map)
+    .bindPopup("<h2>Chantier</h2><img class='logo' src='https://i.postimg.cc/vBXrk4Hk/image.png'><p><a href='https://i.postimg.cc/gjCf5zs9/Mile-High-Club-GTAV.png' data-lightbox='image-4' data-title='Chantier'>Ouvrir le visuel du lieu</a><h3>Site Downtown</h3></p>");
+  L.marker([-5795, 3798], {icon: cardIcon18}).addTo(map)
+    .bindPopup("<h2>Chantier</h2><img class='logo' src='https://i.postimg.cc/vBXrk4Hk/image.png'><p><a href='https://i.postimg.cc/fbHWPd06/gta-black-market-mod-2.png' data-lightbox='image-4' data-title='Chantier'>Ouvrir le visuel du lieu</a><h3>Site Vinewood</h3></p>");
+  L.marker([-6166, 3442], {icon: cardIcon18}).addTo(map)
+    .bindPopup("<h2>Chantier</h2><img class='logo' src='https://i.postimg.cc/vBXrk4Hk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Chantier'>Ouvrir le visuel du lieu</a><h3>Site Little Seoul</h3></p>");
+ 
+  L.marker([-4780, 3476], {icon: cardIcon19}).addTo(map)
+    .bindPopup("<h2>Observatoire</h2><img class='logo' src='https://i.postimg.cc/6qFymvF9/image.png'><p><a href='https://i.postimg.cc/vBBT8hsY/Observatoire-Galileo-PNG.png' data-lightbox='image-4' data-title='Observatoire'>Ouvrir le visuel du lieu</a><h3>Poste Vinewood Hillls</h3></p>");
+ 
   L.marker([-3500, 3879.5], {icon: cardIcon20}).addTo(map)
     .bindPopup("<h2>Grand Senora Desert (Near house by Industrial Plant)</h2><p><a href='https://content.rockstarnews.ru/up/images/9fcfe06ba99dfc79fb60b7fe9832299d.png' data-lightbox='image-11' data-title='Grand Senora Desert (Near house by Industrial Plant)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-3862, 3575], {icon: cardIcon21}).addTo(map)
