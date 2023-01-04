@@ -1,35 +1,47 @@
 L.marker([-5662, 3401], {icon: cardIcon4}).addTo(map)
     .bindPopup("<h2>Gouvernement</h2><img class='logo' src='https://i.postimg.cc/FKFth8y8/image-1.png'><p><a href='https://i.postimg.cc/Xv1P4J7B/IMG-20230102-024358.jpg' data-lightbox='image-4' data-title='Gouvernement'>Ouvrir le visuel du lieu</a><h3>Siège du gouvernement</h3></p>");
-  L.marker([-5744.6, 3472], {icon: cardIcon3}).addTo(map)
+ 
+L.marker([-5744.6, 3472], {icon: cardIcon3}).addTo(map)
     .bindPopup("<h2>Hôpital</h2><img class='logo' src='https://i.postimg.cc/FsZRsgyd/image.png'><p><a href='https://i.postimg.cc/WpSLd9yv/neblife-fa8551fbc3a20dd3fd5c57cef430459e.png' data-lightbox='image-4' data-title='Hôpital'>Ouvrir le visuel du lieu</a><h3>Hôpital Mount Zonah</h3></p>");
-  L.marker([-6558, 3981.2], {icon: cardIcon2}).addTo(map)
+
+L.marker([-6558, 3981.2], {icon: cardIcon2}).addTo(map)
     .bindPopup("<h2>Commissairiat</h2><img class='logo' src='https://i.postimg.cc/jS9mbctb/image.png'><p><a href='https://i.postimg.cc/xC1DfqRc/IMG-20230102-033753.jpg' data-lightbox='image-4' data-title='Commissairiat'>Ouvrir le visuel du lieu</a><h3>Poste de police South Los Santos</h3></p>");
-  L.marker([-6262, 3721.5], {icon: cardIcon1}).addTo(map)
+
+L.marker([-6262, 3721.5], {icon: cardIcon1}).addTo(map)
     .bindPopup("<h2>Concessionnaire</h2><img class='logo' src='https://i.postimg.cc/L5VPRxP6/IMG-20221231-064139.png'><p><a href='https://i.postimg.cc/dtGMWqnR/concessionnairmap.jpg' data-lightbox='image-4' data-title='Concessionnaire'>Ouvrir le visuel du lieu</a><h3>Premium deluxe motorsport</h3></p>");
-  L.marker([-5741.5, 4521.5], {icon: cardIcon5}).addTo(map)
+
+L.marker([-5741.5, 4521.5], {icon: cardIcon5}).addTo(map)
     .bindPopup("<h2>LTD</h2><img class='logo' src='https://i.postimg.cc/NGHnvQhL/image.png'><p><a href='https://i.postimg.cc/c4GbsPZh/1856f919e8612-11f446-EF6-F3-CA740-BD3-71-FEE5-A69-D18-C63-A-message-428189191327662-1672614028623.jpg' data-lightbox='image-4' data-title='LTD'>Ouvrir le visuel du lieu</a><h3>LTD Mirror Park</h3></p>");
-  L.marker([-6336.25, 2547.25], {icon: cardIcon8}).addTo(map)
+
+L.marker([-6336.25, 2547.25], {icon: cardIcon8}).addTo(map)
     .bindPopup("<h2>Fête foraine</h2><img class='logo' src='https://i.postimg.cc/8PJDH4hh/image.png'><p><a href='https://i.postimg.cc/9MbX6fMZ/1.jpg' data-lightbox='image-4' data-title='Fête foraine'>Ouvrir le visuel du lieu</a><h3>Fête foraine Del Perro</h3></p>");
-  L.marker([-6232.6, 4240], {icon: cardIcon6}).addTo(map)
+
+L.marker([-6232.6, 4240], {icon: cardIcon6}).addTo(map)
     .bindPopup("<h2>Los Santos Custom</h2><img class='logo' src='https://i.postimg.cc/250TR87b/image.png'><p><a href='https://i.postimg.cc/L8Cc8mJX/18570451fc09-11f446-EF6-F3-CA740-BD3-71-FEE5-A69-D18-C63-A-message-428192208281975-1672625813601.jpg' data-lightbox='image-4' data-title='Los Santos Custom'>Ouvrir le visuel du lieu</a><h3>LS Custom Mesa</h3></p>");
-  L.marker([-7339, 3075.5], {icon: cardIcon7}).addTo(map)
+
+L.marker([-7339, 3075.5], {icon: cardIcon7}).addTo(map)
     .bindPopup("<h2>Aéroport Los Santos</h2><img class='logo' src='https://i.postimg.cc/Mph3X4Jd/image.png'><p><a href='https://i.postimg.cc/8cPtqgLP/LSIA-Birds-eye-view.jpg' data-lightbox='image-4' data-title='Aéroport'>Ouvrir le visuel du lieu</a><h3>Aéroport Los Santos</h3></p>");
-  L.marker([-7501.5, 4324], {icon: cardIcon10}).addTo(map)
+
+L.marker([-7501.5, 4324], {icon: cardIcon10}).addTo(map)
     .bindPopup("<h2>Port commercial LS</h2><img class='logo' src='https://i.postimg.cc/cL04PsHN/image.png'><p><a href='https://i.postimg.cc/3J2BrZZH/Jetsam-Terminal-GTAV.png' data-lightbox='image-4' data-title='Port commercial'>Ouvrir le visuel du lieu</a><h3>Port commercial Los Santos</h3></p>");
-  L.marker([-1867.5, 4066], {icon: cardIcon9}).addTo(map)
+
+L.marker([-1867.5, 4066], {icon: cardIcon9}).addTo(map)
     .bindPopup("<h2>Mont Chilliad</h2><img class='logo' src='https://i.postimg.cc/NfPgM1Gp/image.png'><p><a href='https://i.postimg.cc/QxZQzTZY/Mount-Chiliad-GTAV.webp' data-lightbox='image-4' data-title='Mont Chilliad'>Ouvrir le visuel du lieu</a><h3>Mont Chilliad</h3></p>");
-  L.marker([-3815.5, 4963.5], {icon: cardIcon11}).addTo(map)
+
+L.marker([-3815.5, 4963.5], {icon: cardIcon11}).addTo(map)
     .bindPopup("<h2>Prison Bolingbroke</h2><img class='logo' src='https://i.ibb.co/dmQ65fQ/pris.png'><p><a href='https://i.postimg.cc/5083LP11/Bolingbroke-Penitentiary-GTAV.png' data-lightbox='image-4' data-title='Pénitencier haute sécurité'>Ouvrir le visuel du lieu</a><h3>Pénitencier Bolingbroke</h3></p>");
-  L.marker([-5626, 4326.5], {icon: cardIcon12}).addTo(map)
+
+L.marker([-5626, 4326.5], {icon: cardIcon12}).addTo(map)
     .bindPopup("<h2>Taxi</h2><img class='logo' src='https://i.postimg.cc/d3yjw4Hg/image.png'><p><a href='https://i.postimg.cc/bN0fP2CF/Downtown-Cab-Co-V.jpg' data-lightbox='image-4' data-title='Dépôt taxi'>Ouvrir le visuel du lieu</a><h3>Dépot taxi Downtown</h3></p>");
-  L.marker([-5389, 3914.5], {icon: cardIcon13}).addTo(map)
+
+L.marker([-5389, 3914.5], {icon: cardIcon13}).addTo(map)
     .bindPopup("<h2>Banque central</h2><img class='logo' src='https://i.postimg.cc/mgKNn3pq/image.png'><p><a href='https://i.postimg.cc/NFj2trRh/Pacific-Standard-Public-Deposit-Bank-GTAV.png' data-lightbox='image-4' data-title='Banque central'>Ouvrir le visuel du lieu</a><h3>Banque Pacific-Standard</h3></p>");
   
 L.marker([-6211.25, 3854.7], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/s2WmCsX3/Screenshot-2023-01-03-02-58-15-31-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>Pillbox Hill bank</h3></p>");
-  L.marker([-5720, 3965], {icon: cardIcon14}).addTo(map)
+L.marker([-5720, 3965], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/bwDH1p11/Screenshot-2023-01-03-02-59-36-22-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>Atla bank</h3></p>");
-    L.marker([-5742.5, 2957], {icon: cardIcon14}).addTo(map)
+L.marker([-5742.5, 2957], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/C1yvRdtZ/Screenshot-2023-01-03-02-56-51-45-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>Rockford Hills bank</h3></p>");
   L.marker([-5552.5, 3527.25], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/FRgx1p3q/Screenshot-2023-01-03-02-58-56-18-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>Burton bank</h3></p>");
@@ -71,7 +83,7 @@ L.marker([-5988, 3590.5], {icon: cardIcon22}).addTo(map)
   L.marker([-5376, 3745], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood West</h3></p>");
  
-L.marker([-5143, 1750], {icon: cardIcon25}).addTo(map)
+L.marker([-3065, 6011], {icon: cardIcon25}).addTo(map)
     .bindPopup("<h2>Laboratoire</h2><img class='logo' src='https://i.postimg.cc/pd1K66vD/image.png'><p><a href='https://i.postimg.cc/k40KnRBG/Humane-Labsand-Research-GTAV.png' data-lightbox='image-4' data-title='Labo Humains'>Ouvrir le visuel du lieu</a><h3>Labo Sandy Shores</h3></p>");
  
 L.marker([-6393, 3244], {icon: cardIcon26}).addTo(map)
