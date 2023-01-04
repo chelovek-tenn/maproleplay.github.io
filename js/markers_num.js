@@ -122,11 +122,14 @@ L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
 L.marker([-6536.5, 3551.5], {icon: cardIcon29}).addTo(map)
     .bindPopup("<h2>Dépot déchets</h2><img class='logo' src='https://i.postimg.cc/MGdL4hHG/poubelle.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='South LS Recycling'>Ouvrir le visuel du lieu</a><h3>Dépot South LS</h3></p>");
  
-L.marker([-5158, 3484], {icon: cardIcon30}).addTo(map)
-    .bindPopup("<h2>Vinewood Hills (Behind a yellow house in Vinewood Hills on Didion Drive)</h2><p><a href='https://content.rockstarnews.ru/up/images/0ace054e882228ee8349ba375b70cdd8.png' data-lightbox='image-11' data-title='Vinewood Hills (Behind a yellow house in Vinewood Hills on Didion Drive)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-5296, 3690], {icon: cardIcon31}).addTo(map)
-    .bindPopup("<h2>West Vinewood (Gentry Manor Hotel)</h2><p><a href='https://content.rockstarnews.ru/up/images/196e37802dac2ed407dd598313b07ddb.jpg' data-lightbox='image-11' data-title='West Vinewood (Gentry Manor Hotel)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-3088.25, 3809.5], {icon: cardIcon32}).addTo(map)
+
+L.marker([-3298.5, 2241.75], {icon: cardIcon30}).addTo(map)
+    .bindPopup("<h2>Base militaire</h2><img class='logo' src='https://i.postimg.cc/sxwqFqwm/logofort.png'><p><a href='https://i.postimg.cc/x8zn90N5/gta-v-fort-zancudo.jpg' data-lightbox='image-4' data-title='Fort Zancudo'>Ouvrir le visuel du lieu</a><h3>Base Blaine County</h3></p>");
+
+L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
+    .bindPopup("<h2>Casino</h2><img class='logo' src='https://i.postimg.cc/3w8GNqBm/image.png'><p><a href='https://i.postimg.cc/bYW1g3yf/The-Diamond-Casino-Resort-GTAO-Night-View.png' data-lightbox='image-4' data-title='Casino'>Ouvrir le visuel du lieu</a><h3>Casino Vinewood Park</h3></p>");
+
+L.marker([-3088.25, 3809.5], {icon: cardIcon32}).addTo(map)
     .bindPopup("<h2>Pacific Standard Bank</h2><p><a href='https://content.rockstarnews.ru/up/images/765975dfe817ad4a426f77d18f979f38.jpg' data-lightbox='image-11' data-title='Pacific Standard Bank'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-5650.75, 4114], {icon: cardIcon33}).addTo(map)
     .bindPopup("<h2>Hawick (Auto Exotic garage)</h2><p><a href='https://content.rockstarnews.ru/up/images/d183e455541e489e5f34368e29dd846b.jpg' data-lightbox='image-11' data-title='Hawick (Auto Exotic garage)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
