@@ -98,9 +98,9 @@ L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
  L.marker([-1287.5, 3660.25], {icon: cardIcon27}).addTo(map)
     .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Paleto Bay</h3></p>");
  
- L.marker([-5876.5, 3214.5], {icon: cardIcon28}).addTo(map)
+ L.marker([-5603, 3210], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Portola Drive</h3></p>");
-  L.marker([-4783.75, 2853], {icon: cardIcon28}).addTo(map)
+  L.marker([-5875.75, 2855], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Del Perro</h3></p>");
    L.marker([-5992, 3432.5], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Little Seoul</h3></p>");
@@ -119,9 +119,10 @@ L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
         L.marker([-6321, 3946], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Strawberry</h3></p>");
  
-L.marker([-5338.5, 5450.5], {icon: cardIcon29}).addTo(map)
-    .bindPopup("<h2>Tataviam Mt. (Ammu-Nation)</h2><p><a href='https://content.rockstarnews.ru/up/images/9a2c2e64da4cf6482a49145eede25318.jpg' data-lightbox='image-11' data-title='Tataviam Mt. (Ammu-Nation)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-5158, 3484], {icon: cardIcon30}).addTo(map)
+L.marker([-6536.5, 3551.5], {icon: cardIcon29}).addTo(map)
+    .bindPopup("<h2>Dépot déchets</h2><img class='logo' src='https://i.postimg.cc/MGdL4hHG/poubelle.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='South LS Recycling'>Ouvrir le visuel du lieu</a><h3>Dépot South LS</h3></p>");
+ 
+L.marker([-5158, 3484], {icon: cardIcon30}).addTo(map)
     .bindPopup("<h2>Vinewood Hills (Behind a yellow house in Vinewood Hills on Didion Drive)</h2><p><a href='https://content.rockstarnews.ru/up/images/0ace054e882228ee8349ba375b70cdd8.png' data-lightbox='image-11' data-title='Vinewood Hills (Behind a yellow house in Vinewood Hills on Didion Drive)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-5296, 3690], {icon: cardIcon31}).addTo(map)
     .bindPopup("<h2>West Vinewood (Gentry Manor Hotel)</h2><p><a href='https://content.rockstarnews.ru/up/images/196e37802dac2ed407dd598313b07ddb.jpg' data-lightbox='image-11' data-title='West Vinewood (Gentry Manor Hotel)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
