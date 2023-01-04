@@ -89,9 +89,16 @@ L.marker([-3065, 6011], {icon: cardIcon25}).addTo(map)
 L.marker([-6393, 3244], {icon: cardIcon26}).addTo(map)
     .bindPopup("<h2>Port de plaisance</h2><img class='logo' src='https://i.postimg.cc/DfcwfbWN/image.png'><p><a href='https://i.postimg.cc/MHzZbzLt/Puerto-del-sol-marina.jpg' data-lightbox='image-4' data-title='Del Sol Marina'>Ouvrir le visuel du lieu</a><h3>Port Vespucci</h3></p>");
  
-L.marker([-4730, 3476.5], {icon: cardIcon27}).addTo(map)
-    .bindPopup("<h2>Vinewood Hills (Observatory)</h2><p><a href='https://content.rockstarnews.ru/up/images/103a7e20345e35b058ececbc55a1dd03.png' data-lightbox='image-11' data-title='Vinewood Hills (Observatory)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-4783.75, 4737.5], {icon: cardIcon28}).addTo(map)
+L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Atla</h3></p>");
+ L.marker([-6477, 3098.5], {icon: cardIcon27}).addTo(map)
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Vespucci</h3></p>");
+ L.marker([-3779, 4494.75], {icon: cardIcon27}).addTo(map)
+    .bindPopup("<h2>Motel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Motel tourisme'>Ouvrir le visuel du lieu</a><h3>Motel Blaine County</h3></p>");
+ L.marker([-1287.5, 3660.25], {icon: cardIcon27}).addTo(map)
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Paleto Bay</h3></p>");
+ 
+ L.marker([-4783.75, 4737.5], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Vinewood Hills (Madrazo's Ranch)</h2><p><a href='https://content.rockstarnews.ru/up/images/05217a8f50e6305d692cff973d9fbb93.jpg' data-lightbox='image-11' data-title='Vinewood Hills (Madrazo's Ranch)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-5338.5, 5450.5], {icon: cardIcon29}).addTo(map)
     .bindPopup("<h2>Tataviam Mt. (Ammu-Nation)</h2><p><a href='https://content.rockstarnews.ru/up/images/9a2c2e64da4cf6482a49145eede25318.jpg' data-lightbox='image-11' data-title='Tataviam Mt. (Ammu-Nation)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
