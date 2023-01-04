@@ -50,8 +50,8 @@ L.marker([-5742.5, 2957], {icon: cardIcon14}).addTo(map)
   L.marker([-5211.2, 1798.2], {icon: cardIcon14}).addTo(map)
     .bindPopup("<h2>Banque rurale</h2><img class='logo' src='https://i.postimg.cc/4d2SmHxT/image.png'><p><a href='https://i.postimg.cc/tJvWVMTr/Screenshot-2023-01-03-03-00-15-57-572064f74bd5f9fa804b05334aa4f912.jpg' data-lightbox='image-4' data-title='Fleeca Bank'>Ouvrir le visuel du lieu</a><h3>LS County bank</h3></p>");
   
-L.marker([-5866, 2854], {icon: cardIcon15}).addTo(map)
-    .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Del Perro</h3></p>");
+L.marker([-5987, 3368.5], {icon: cardIcon15}).addTo(map)
+    .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://i.postimg.cc/1RgKxSTx/Little-Seoul-Tower-GTAV.webp' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Little Seoul</h3></p>");
   L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
     .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pénitencierhaute sécurité'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
 
