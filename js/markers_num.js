@@ -56,12 +56,15 @@ L.marker([-5866, 2854], {icon: cardIcon15}).addTo(map)
   L.marker([-4780, 3476], {icon: cardIcon19}).addTo(map)
     .bindPopup("<h2>Observatoire</h2><img class='logo' src='https://i.postimg.cc/6qFymvF9/image.png'><p><a href='https://i.postimg.cc/vBBT8hsY/Observatoire-Galileo-PNG.png' data-lightbox='image-4' data-title='Observatoire'>Ouvrir le visuel du lieu</a><h3>Poste Vinewood Hillls</h3></p>");
  
-  L.marker([-3500, 3879.5], {icon: cardIcon20}).addTo(map)
-    .bindPopup("<h2>Grand Senora Desert (Near house by Industrial Plant)</h2><p><a href='https://content.rockstarnews.ru/up/images/9fcfe06ba99dfc79fb60b7fe9832299d.png' data-lightbox='image-11' data-title='Grand Senora Desert (Near house by Industrial Plant)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-3862, 3575], {icon: cardIcon21}).addTo(map)
-    .bindPopup("<h2>Great Chaparral (House south of the Route 68 Church)</h2><p><a href='https://content.rockstarnews.ru/up/images/c6bdd775892ac79bcc9ce1538214d34b.png' data-lightbox='image-11' data-title='Great Chaparral (House south of the Route 68 Church)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-3744, 3032], {icon: cardIcon22}).addTo(map)
-    .bindPopup("<h2>Zancudo (Discount Store)</h2><p><a href='https://content.rockstarnews.ru/up/images/d5d9c83e1d64ca67ee5f4ec05dbeb138.jpg' data-lightbox='image-11' data-title='Zancudo (Discount Store)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
+  L.marker([-6138, 3373.5], {icon: cardIcon20}).addTo(map)
+    .bindPopup("<h2>Journaliste</h2><img class='logo' src='https://i.postimg.cc/W1YPxNJh/image.png'><p><a href='https://i.postimg.cc/NM1SGBL8/Weazel-News-Building-GTAV.png' data-lightbox='image-4' data-title='Bureau Weazel News'>Ouvrir le visuel du lieu</a><h3>Bureau Little Seoul</h3></p>");
+ 
+  L.marker([-5272, 2238], {icon: cardIcon21}).addTo(map)
+    .bindPopup("<h2>Tribunale</h2><img class='logo' src='https://i.postimg.cc/vHqYwLJY/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Tribunale Los Santos'>Ouvrir le visuel du lieu</a><h3>Tribunale Pacific Bluffs</h3></p>");
+ 
+L.marker([-5988, 3590.5], {icon: cardIcon22}).addTo(map)
+    .bindPopup("<h2>Agence de Travail</h2><img class='logo' src='https://i.postimg.cc/jSHMJZRK/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence de travail'>Ouvrir le visuel du lieu</a><h3>Agence Downtown</h3></p>");
+ 
   L.marker([-3298.5, 2241.75], {icon: cardIcon23}).addTo(map)
     .bindPopup("<h2>Zancudo (Zancudo Millitary Base)</h2><p><a href='https://content.rockstarnews.ru/up/images/d544693b1a5c508a295af5a263d4b5c3.jpg' data-lightbox='image-11' data-title='Zancudo (Zancudo Millitary Base)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-4799.5, 1680], {icon: cardIcon24}).addTo(map)
