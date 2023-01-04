@@ -52,8 +52,9 @@ L.marker([-5742.5, 2957], {icon: cardIcon14}).addTo(map)
   
 L.marker([-5987, 3368.5], {icon: cardIcon15}).addTo(map)
     .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://i.postimg.cc/1RgKxSTx/Little-Seoul-Tower-GTAV.webp' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Little Seoul</h3></p>");
-  L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
-    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pénitencierhaute sécurité'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
+
+L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
+    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Armurie'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
 
   L.marker([-3524.5, 5071.5], {icon: cardIcon17}).addTo(map)
     .bindPopup("<h2>Bar/distillerie</h2><img class='logo' src='https://i.postimg.cc/1Xw94qnY/image.png'><p><a href='https://i.postimg.cc/d32YJcpb/Yellow-Jack-Extension-Interior2.jpg' data-lightbox='image-4' data-title='Bar/distillerie'>Ouvrir le visuel du lieu</a><h3>Yellow Blaine County</h3></p>");
@@ -129,11 +130,12 @@ L.marker([-3298.5, 2241.75], {icon: cardIcon30}).addTo(map)
 L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
     .bindPopup("<h2>Casino</h2><img class='logo' src='https://i.postimg.cc/3w8GNqBm/image.png'><p><a href='https://i.postimg.cc/bYW1g3yf/The-Diamond-Casino-Resort-GTAO-Night-View.png' data-lightbox='image-4' data-title='Casino'>Ouvrir le visuel du lieu</a><h3>Casino Vinewood Park</h3></p>");
 
-L.marker([-3088.25, 3809.5], {icon: cardIcon32}).addTo(map)
-    .bindPopup("<h2>Pacific Standard Bank</h2><p><a href='https://content.rockstarnews.ru/up/images/765975dfe817ad4a426f77d18f979f38.jpg' data-lightbox='image-11' data-title='Pacific Standard Bank'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-5650.75, 4114], {icon: cardIcon33}).addTo(map)
-    .bindPopup("<h2>Hawick (Auto Exotic garage)</h2><p><a href='https://content.rockstarnews.ru/up/images/d183e455541e489e5f34368e29dd846b.jpg' data-lightbox='image-11' data-title='Hawick (Auto Exotic garage)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-1310.5, 4978.75], {icon: cardIcon34}).addTo(map)
+ L.marker([-6522, 3862.5], {icon: cardIcon32}).addTo(map)
+    .bindPopup("<h2>Agence d'entretien</h2><img class='logo' src='https://i.postimg.cc/rw2jCHQB/menage.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence d'entretien'>Ouvrir le visuel du lieu</a><h3>Agence South LS</h3></p>");
+  L.marker([-5322.5, 3133.5], {icon: cardIcon33}).addTo(map)
+    .bindPopup("<h2>Jardinier</h2><img class='logo' src='https://i.postimg.cc/LXgvVMFM/jardinier.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence paysagiste'>Ouvrir le visuel du lieu</a><h3>Agence Rockford Hills</h3></p>");
+
+L.marker([-1310.5, 4978.75], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Mirror Park (Convenience Store)</h2><p><a href='https://content.rockstarnews.ru/up/images/f4ad0cd8db86e59853b96b723e66b131.jpg' data-lightbox='image-11' data-title='Mirror Park (Convenience Store)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-5724, 3654.5], {icon: cardIcon35}).addTo(map)
     .bindPopup("<h2>Ponsonbys (Burton)</h2><p><a href='https://content.rockstarnews.ru/up/images/96b1c5a0ebff3bf18e6b6ac1d2696169.jpg' data-lightbox='image-11' data-title='Ponsonbys (Burton)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
