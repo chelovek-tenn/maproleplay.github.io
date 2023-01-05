@@ -135,9 +135,10 @@ L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
   L.marker([-5322.5, 3133.5], {icon: cardIcon33}).addTo(map)
     .bindPopup("<h2>Jardinier</h2><img class='logo' src='https://i.postimg.cc/LXgvVMFM/jardinier.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence paysagiste'>Ouvrir le visuel du lieu</a><h3>Agence Rockford Hills</h3></p>");
 
-L.marker([-1310.5, 4978.75], {icon: cardIcon34}).addTo(map)
-    .bindPopup("<h2>Mirror Park (Convenience Store)</h2><p><a href='https://content.rockstarnews.ru/up/images/f4ad0cd8db86e59853b96b723e66b131.jpg' data-lightbox='image-11' data-title='Mirror Park (Convenience Store)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
-  L.marker([-5724, 3654.5], {icon: cardIcon35}).addTo(map)
+L.marker([-2389, 4870.75], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Salle d'arcarde'>Ouvrir le visuel du lieu</a><h3>Salle Grapeseed</h3></p>");
+
+L.marker([-5724, 3654.5], {icon: cardIcon35}).addTo(map)
     .bindPopup("<h2>Ponsonbys (Burton)</h2><p><a href='https://content.rockstarnews.ru/up/images/96b1c5a0ebff3bf18e6b6ac1d2696169.jpg' data-lightbox='image-11' data-title='Ponsonbys (Burton)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
   L.marker([-5463, 3119.5], {icon: cardIcon36}).addTo(map)
     .bindPopup("<h2>Rockford Hills (Mansion at the end of Steele Way)</h2><p><a href='https://content.rockstarnews.ru/up/images/aec2fcd7e487d35cbe5c5d15ebc82682.jpg' data-lightbox='image-11' data-title='Rockford Hills (Mansion at the end of Steele Way)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
