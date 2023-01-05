@@ -81,9 +81,6 @@ L.marker([-5988, 3590.5], {icon: cardIcon22}).addTo(map)
   L.marker([-6381.25, 3834.75], {icon: cardIcon23}).addTo(map)
     .bindPopup("<h2>Strip Club</h2><img class='logo' src='https://i.postimg.cc/XqLmMWY2/image.png'><p><a href='https://i.postimg.cc/1tpbHwh1/vanilla-unicorn-gta-5-hd.jpg' data-lightbox='image-4' data-title='Strip club'>Ouvrir le visuel du lieu</a><h3>Club South LS</h3></p>");
  
-  L.marker([-5376, 3745], {icon: cardIcon24}).addTo(map)
-    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood West</h3></p>");
- 
 L.marker([-3065, 6011], {icon: cardIcon25}).addTo(map)
     .bindPopup("<h2>Laboratoire</h2><img class='logo' src='https://i.postimg.cc/pd1K66vD/image.png'><p><a href='https://i.postimg.cc/k40KnRBG/Humane-Labsand-Research-GTAV.png' data-lightbox='image-4' data-title='Labo Humains'>Ouvrir le visuel du lieu</a><h3>Labo Sandy Shores</h3></p>");
  
@@ -122,7 +119,6 @@ L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
  
 L.marker([-6536.5, 3551.5], {icon: cardIcon29}).addTo(map)
     .bindPopup("<h2>Dépot déchets</h2><img class='logo' src='https://i.postimg.cc/MGdL4hHG/poubelle.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='South LS Recycling'>Ouvrir le visuel du lieu</a><h3>Dépot South LS</h3></p>");
- 
 
 L.marker([-3298.5, 2241.75], {icon: cardIcon30}).addTo(map)
     .bindPopup("<h2>Base militaire</h2><img class='logo' src='https://i.postimg.cc/sxwqFqwm/logofort.png'><p><a href='https://i.postimg.cc/x8zn90N5/gta-v-fort-zancudo.jpg' data-lightbox='image-4' data-title='Fort Zancudo'>Ouvrir le visuel du lieu</a><h3>Base Blaine County</h3></p>");
@@ -136,7 +132,39 @@ L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
     .bindPopup("<h2>Jardinier</h2><img class='logo' src='https://i.postimg.cc/LXgvVMFM/jardinier.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence paysagiste'>Ouvrir le visuel du lieu</a><h3>Agence Rockford Hills</h3></p>");
 
 L.marker([-2389, 4870.75], {icon: cardIcon34}).addTo(map)
-    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Salle d'arcarde'>Ouvrir le visuel du lieu</a><h3>Salle Grapeseed</h3></p>");
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Wonderama Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Grapeseed</h3></p>");
+L.marker([-1444, 3599], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pixel Pete's Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Paleto Bay</h3></p>");
+L.marker([-6070, 4259], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Videogeddon Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Mesa</h3></p>");
+L.marker([-6693, 3677.5], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Warehouse Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Davis</h3></p>");
+L.marker([-5718, 2909], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Insert Coin Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Rockford Hills</h3></p>");
+.marker([-5344, 3358], {icon: cardIcon34}).addTo(map)
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Eight-Bit Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Vinewood</h3></p>");
+
+L.marker([-5955.5, 2882], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Del Perro</h3></p>");
+L.marker([-7195.5, 3273], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club LSIA</h3></p>");
+L.marker([-7595.5, 3890], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Elysian Island</h3></p>");
+  L.marker([-6908.5, 4333], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Cypress Flats</h3></p>");
+L.marker([-6314.5, 2324], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vespucci Canals</h3></p>");
+ L.marker([-6369.5, 3711], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Strawberry</h3></p>");
+ L.marker([-6401.5, 4249], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Mesa</h3></p>");
+ L.marker([-6185.5, 3984], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Mission Row</h3></p>");
+ L.marker([-5351, 3957.5], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood</h3></p>");
+ 
+
+
 
 L.marker([-5724, 3654.5], {icon: cardIcon35}).addTo(map)
     .bindPopup("<h2>Ponsonbys (Burton)</h2><p><a href='https://content.rockstarnews.ru/up/images/96b1c5a0ebff3bf18e6b6ac1d2696169.jpg' data-lightbox='image-11' data-title='Ponsonbys (Burton)'>Open In-Game Screenshot</a></p><div class='input-group input-group-sm mb-3'><input type='text' class='form-control' id='copy' value='https://rockstarnews.ru/map/#5/-1140.750/3857.500'><div class='input-group-append'><button class='btn btn-outline-secondary copy' data-clipboard-target='#copy' type='button'>Copy</button></div></div>");
