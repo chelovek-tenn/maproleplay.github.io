@@ -134,7 +134,7 @@ L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
 L.marker([-2389, 4870.75], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Wonderama Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Grapeseed</h3></p>");
 L.marker([-1444, 3599], {icon: cardIcon34}).addTo(map)
-    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pixel Pete's Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Paleto Bay</h3></p>");
+    .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Pixel Pete\'s Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Paleto Bay</h3></p>");
 L.marker([-6070, 4259], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Videogeddon Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Mesa</h3></p>");
 L.marker([-6693, 3677.5], {icon: cardIcon34}).addTo(map)
