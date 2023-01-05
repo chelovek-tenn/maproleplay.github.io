@@ -141,7 +141,7 @@ L.marker([-6693, 3677.5], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Warehouse Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Davis</h3></p>");
 L.marker([-5718, 2909], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Insert Coin Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Rockford Hills</h3></p>");
-.marker([-5344, 3358], {icon: cardIcon34}).addTo(map)
+L.marker([-5344, 3358], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Eight-Bit Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Vinewood</h3></p>");
 
 L.marker([-5955.5, 2882], {icon: cardIcon24}).addTo(map)
