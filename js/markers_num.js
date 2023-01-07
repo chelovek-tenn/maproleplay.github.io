@@ -152,7 +152,7 @@ L.marker([-7595.5, 3890], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Elysian Island</h3></p>");
   L.marker([-6908.5, 4333], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Cypress Flats</h3></p>");
-L.marker([-6314.5, 2324], {icon: cardIcon24}).addTo(map)
+L.marker([-6294.5, 2983], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vespucci Canals</h3></p>");
  L.marker([-6369.5, 3711], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Strawberry</h3></p>");
