@@ -23,7 +23,7 @@ L.marker([-7339, 3075.5], {icon: cardIcon7}).addTo(map)
     .bindPopup("<h2>Aéroport Los Santos</h2><img class='logo' src='https://i.postimg.cc/Mph3X4Jd/image.png'><p><a href='https://i.postimg.cc/8cPtqgLP/LSIA-Birds-eye-view.jpg' data-lightbox='image-4' data-title='Aéroport'>Ouvrir le visuel du lieu</a><h3>Aéroport Los Santos</h3></p>");
 
 L.marker([-7501.5, 4324], {icon: cardIcon10}).addTo(map)
-    .bindPopup("<h2>Port commercial LS</h2><img class='logo' src='https://i.postimg.cc/cL04PsHN/image.png'><p><a href='https://i.postimg.cc/3J2BrZZH/Jetsam-Terminal-GTAV.png' data-lightbox='image-4' data-title='Port commercial'>Ouvrir le visuel du lieu</a><h3>Port commercial Los Santos</h3></p>");
+    .bindPopup("<h2>Port commercial LS</h2><img class='logo' src='https://i.postimg.cc/cL04PsHN/image.png'><p><a href='https://i.postimg.cc/m286hB8W/Terminal-GTAV.png' data-lightbox='image-4' data-title='Port commercial'>Ouvrir le visuel du lieu</a><h3>Port commercial Los Santos</h3></p>");
 
 L.marker([-1867.5, 4066], {icon: cardIcon9}).addTo(map)
     .bindPopup("<h2>Mont Chilliad</h2><img class='logo' src='https://i.postimg.cc/NfPgM1Gp/image.png'><p><a href='https://i.postimg.cc/QxZQzTZY/Mount-Chiliad-GTAV.webp' data-lightbox='image-4' data-title='Mont Chilliad'>Ouvrir le visuel du lieu</a><h3>Mont Chilliad</h3></p>");
@@ -54,7 +54,7 @@ L.marker([-5987, 3368.5], {icon: cardIcon15}).addTo(map)
     .bindPopup("<h2>Agence immobilier</h2><img class='logo' src='https://i.postimg.cc/Kc6RM9VR/image.png'><p><a href='https://i.postimg.cc/1RgKxSTx/Little-Seoul-Tower-GTAV.webp' data-lightbox='image-4' data-title='Agence immobilère'>Ouvrir le visuel du lieu</a><h3>Agence Little Seoul</h3></p>");
 
 L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
-    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Armurie'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
+    .bindPopup("<h2>Armurie LS</h2><img class='logo' src='https://i.postimg.cc/KvGDd8GP/image.png'><p><a href='https://i.postimg.cc/y8jpgBjz/IMG-20230107-020222.jpg' data-lightbox='image-4' data-title='Armurie'>Ouvrir le visuel du lieu</a><h3>Ammu-Nation East LS</h3></p>");
 
   L.marker([-3524.5, 5071.5], {icon: cardIcon17}).addTo(map)
     .bindPopup("<h2>Bar/distillerie</h2><img class='logo' src='https://i.postimg.cc/1Xw94qnY/image.png'><p><a href='https://i.postimg.cc/d32YJcpb/Yellow-Jack-Extension-Interior2.jpg' data-lightbox='image-4' data-title='Bar/distillerie'>Ouvrir le visuel du lieu</a><h3>Yellow Blaine County</h3></p>");
@@ -76,7 +76,7 @@ L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
     .bindPopup("<h2>Tribunale</h2><img class='logo' src='https://i.postimg.cc/vHqYwLJY/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Tribunale Los Santos'>Ouvrir le visuel du lieu</a><h3>Tribunale Pacific Bluffs</h3></p>");
  
 L.marker([-5988, 3590.5], {icon: cardIcon22}).addTo(map)
-    .bindPopup("<h2>Agence de Travail</h2><img class='logo' src='https://i.postimg.cc/jSHMJZRK/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence de travail'>Ouvrir le visuel du lieu</a><h3>Agence Downtown</h3></p>");
+    .bindPopup("<h2>Agence de Travail</h2><img class='logo' src='https://i.postimg.cc/jSHMJZRK/image.png'><p><a href='https://i.postimg.cc/fTxrsY0y/IMG-20230107-020229.jpg' data-lightbox='image-4' data-title='Agence de travail'>Ouvrir le visuel du lieu</a><h3>Agence Downtown</h3></p>");
  
   L.marker([-6381.25, 3834.75], {icon: cardIcon23}).addTo(map)
     .bindPopup("<h2>Strip Club</h2><img class='logo' src='https://i.postimg.cc/XqLmMWY2/image.png'><p><a href='https://i.postimg.cc/1tpbHwh1/vanilla-unicorn-gta-5-hd.jpg' data-lightbox='image-4' data-title='Strip club'>Ouvrir le visuel du lieu</a><h3>Club South LS</h3></p>");
@@ -88,37 +88,37 @@ L.marker([-6393, 3244], {icon: cardIcon26}).addTo(map)
     .bindPopup("<h2>Port de plaisance</h2><img class='logo' src='https://i.postimg.cc/DfcwfbWN/image.png'><p><a href='https://i.postimg.cc/MHzZbzLt/Puerto-del-sol-marina.jpg' data-lightbox='image-4' data-title='Del Sol Marina'>Ouvrir le visuel du lieu</a><h3>Port Vespucci</h3></p>");
  
 L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
-    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Atla</h3></p>");
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://i.postimg.cc/br43PwqQ/IMG-20230107-015906.jpg' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Atla</h3></p>");
  L.marker([-6477, 3098.5], {icon: cardIcon27}).addTo(map)
-    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Vespucci</h3></p>");
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://i.postimg.cc/4408VBpm/IMG-20230107-015856.jpg' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Vespucci</h3></p>");
  L.marker([-3779, 4494.75], {icon: cardIcon27}).addTo(map)
-    .bindPopup("<h2>Motel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Motel tourisme'>Ouvrir le visuel du lieu</a><h3>Motel Blaine County</h3></p>");
+    .bindPopup("<h2>Motel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://i.postimg.cc/WtR6KY78/IMG-20230107-015915.jpg' data-lightbox='image-4' data-title='Motel tourisme'>Ouvrir le visuel du lieu</a><h3>Motel Blaine County</h3></p>");
  L.marker([-1287.5, 3660.25], {icon: cardIcon27}).addTo(map)
-    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Paleto Bay</h3></p>");
+    .bindPopup("<h2>Hôtel</h2><img class='logo' src='https://i.postimg.cc/2yWnTChy/image.png'><p><a href='https://i.postimg.cc/NF2kdvRL/IMG-20230107-015922.jpg' data-lightbox='image-4' data-title='Hôtel tourisme'>Ouvrir le visuel du lieu</a><h3>Hôtel Paleto Bay</h3></p>");
  
  L.marker([-5603, 3210], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Portola Drive</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/Z52DmjKG/IMG-20230107-014317.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Portola Drive</h3></p>");
   L.marker([-5875.75, 2855], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Del Perro</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/zvHVsJtZ/IMG-20230107-014603.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Del Perro</h3></p>");
    L.marker([-5992, 3432.5], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Little Seoul</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/W33D7m04/IMG-20230107-014610.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Little Seoul</h3></p>");
     L.marker([-6210, 3615], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Pillbox South</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/xC2Qf91V/IMG-20230107-014857.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Pillbox South</h3></p>");
     L.marker([-6666, 3833.5], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Davis</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/zGy8pdc6/IMG-20230107-014915.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Davis</h3></p>");
      L.marker([-5743, 3593], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Burton</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/15HQykLL/IMG-20230107-013930.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Burton</h3></p>");
      L.marker([-7329.5, 3058], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station LSIA Terminal 4</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/cCcLyrRz/IMG-20230107-014958.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station LSIA Terminal 4</h3></p>");
       L.marker([-7067, 3129.5], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station LSIA Parking</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/7YxL1nDr/IMG-20230107-014947.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station LSIA Parking</h3></p>");
        L.marker([-6377, 3401], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Puerto del Sol</h3></p>");
         L.marker([-6321, 3946], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Strawberry</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/HW0x7Pqt/IMG-20230107-014935.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Strawberry</h3></p>");
  
 L.marker([-6536.5, 3551.5], {icon: cardIcon29}).addTo(map)
-    .bindPopup("<h2>Dépot déchets</h2><img class='logo' src='https://i.postimg.cc/MGdL4hHG/poubelle.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='South LS Recycling'>Ouvrir le visuel du lieu</a><h3>Dépot South LS</h3></p>");
+    .bindPopup("<h2>Dépot déchets</h2><img class='logo' src='https://i.postimg.cc/MGdL4hHG/poubelle.png'><p><a href='https://i.postimg.cc/76xRthLh/IMG-20230107-015509.jpg' data-lightbox='image-4' data-title='South LS Recycling'>Ouvrir le visuel du lieu</a><h3>Dépot South LS</h3></p>");
 
 L.marker([-3298.5, 2241.75], {icon: cardIcon30}).addTo(map)
     .bindPopup("<h2>Base militaire</h2><img class='logo' src='https://i.postimg.cc/sxwqFqwm/logofort.png'><p><a href='https://i.postimg.cc/x8zn90N5/gta-v-fort-zancudo.jpg' data-lightbox='image-4' data-title='Fort Zancudo'>Ouvrir le visuel du lieu</a><h3>Base Blaine County</h3></p>");
@@ -127,9 +127,9 @@ L.marker([-5496.5, 4357.5], {icon: cardIcon31}).addTo(map)
     .bindPopup("<h2>Casino</h2><img class='logo' src='https://i.postimg.cc/3w8GNqBm/image.png'><p><a href='https://i.postimg.cc/bYW1g3yf/The-Diamond-Casino-Resort-GTAO-Night-View.png' data-lightbox='image-4' data-title='Casino'>Ouvrir le visuel du lieu</a><h3>Casino Vinewood Park</h3></p>");
 
  L.marker([-6522, 3862.5], {icon: cardIcon32}).addTo(map)
-    .bindPopup("<h2>Agence d'entretien</h2><img class='logo' src='https://i.postimg.cc/rw2jCHQB/menage.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence d'entretien'>Ouvrir le visuel du lieu</a><h3>Agence South LS</h3></p>");
+    .bindPopup("<h2>Agence d'entretien</h2><img class='logo' src='https://i.postimg.cc/rw2jCHQB/menage.png'><p><a href='https://i.postimg.cc/k5NZyKqL/IMG-20230107-015532.jpg' data-lightbox='image-4' data-title='Agence d'entretien'>Ouvrir le visuel du lieu</a><h3>Agence South LS</h3></p>");
   L.marker([-5322.5, 3133.5], {icon: cardIcon33}).addTo(map)
-    .bindPopup("<h2>Jardinier</h2><img class='logo' src='https://i.postimg.cc/LXgvVMFM/jardinier.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Agence paysagiste'>Ouvrir le visuel du lieu</a><h3>Agence Rockford Hills</h3></p>");
+    .bindPopup("<h2>Jardinier</h2><img class='logo' src='https://i.postimg.cc/LXgvVMFM/jardinier.png'><p><a href='https://i.postimg.cc/k4fp0CVc/IMG-20230107-015520.jpg' data-lightbox='image-4' data-title='Agence paysagiste'>Ouvrir le visuel du lieu</a><h3>Agence Rockford Hills</h3></p>");
 
 L.marker([-2389, 4870.75], {icon: cardIcon34}).addTo(map)
     .bindPopup("<h2>Salle d'arcarde</h2><img class='logo' src='https://i.postimg.cc/XqkKt54m/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Wonderama Arcade'>Ouvrir le visuel du lieu</a><h3>Salle Grapeseed</h3></p>");
