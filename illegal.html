@@ -32,23 +32,24 @@
   <link href="css/style.css" rel="stylesheet" />
    </head>
   <body>
- <div class="preloader-2">
-  <span class="line line-1"></span>
-  <span class="line line-2"></span>
-  <span class="line line-3"></span>
-  <span class="line line-4"></span>
-  <span class="line line-5"></span>
-  <span class="line line-6"></span>
-  <span class="line line-7"></span>
-  <span class="line line-8"></span>
-  <span class="line line-9"></span>
-  <div>Connecting</div>
-
+<div id="protected-content" style="display: none;">
    <div id="map"></div>
     <script type="text/javascript">new ClipboardJS('.copy');</script>
     <script src="js/core.js"></script>
     <script src="js/markers.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+  </div>
+
+  <script>
+  var password = prompt("Entrer le mot de passe pour débloquer la page:");
+  if (password == "ff") {
+    // Show the protected content
+    document.getElementById("protected-content").style.display = "block";
+  } else {
+    alert("Mot de passe incorrect, réessayer");
+  }
+  </script>
+   
   </div>
 
   </body>
