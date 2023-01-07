@@ -160,8 +160,8 @@ L.marker([-6294.5, 2983], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Mesa</h3></p>");
  L.marker([-6185.5, 3984], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Mission Row</h3></p>");
- L.marker([-5351, 3957.5], {icon: cardIcon24}).addTo(map)
-    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood</h3></p>");
+ L.marker([-5387, 3745.5], {icon: cardIcon24}).addTo(map)
+    .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood west</h3></p>");
  
 
 
