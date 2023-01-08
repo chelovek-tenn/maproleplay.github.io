@@ -1,6 +1,3 @@
-L.marker([-5662, 3401], {icon: cardIcon4}).addTo(map)
-    .bindPopup("<h2>Gouvernement</h2><img class='logo' src='https://i.postimg.cc/FKFth8y8/image-1.png'><p><a href='https://i.postimg.cc/Xv1P4J7B/IMG-20230102-024358.jpg' data-lightbox='image-4' data-title='Gouvernement'>Ouvrir le visuel du lieu</a><h3>Siège du gouvernement</h3></p>");
-
 L.marker([-6120, 4258], {icon: cardIcon35}).addTo(map)
     .bindPopup("<h2>Grand entrepôt</h2><img class='logo' src='https://i.postimg.cc/0QLg0zf9/gentrepot.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Entrepôt Darnel Bros'>Ouvrir le visuel du lieu</a><h3>Entrepôt East LS</h3></p>");
 L.marker([-7188, 4420], {icon: cardIcon35}).addTo(map)
