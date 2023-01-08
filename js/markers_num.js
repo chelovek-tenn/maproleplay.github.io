@@ -113,7 +113,7 @@ L.marker([-5675, 4050], {icon: cardIcon27}).addTo(map)
       L.marker([-7067, 3129.5], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/7YxL1nDr/IMG-20230107-014947.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station LSIA Parking</h3></p>");
        L.marker([-6377, 3401], {icon: cardIcon28}).addTo(map)
-    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Puerto del Sol</h3></p>");
+    .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/Df9dzfR9/1858f6a4d4532-028446-EF6-F3-CA740-BD3-5-FC2-EF4780-FAD054-message-428319144977968-1673121660070.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Puerto del Sol</h3></p>");
         L.marker([-6321, 3946], {icon: cardIcon28}).addTo(map)
     .bindPopup("<h2>Métro</h2><img class='logo' src='https://i.postimg.cc/W3bZHZZr/Screenshot-2023-01-04-12-34-38-59-40deb401b9ffe8e1df2f1cc5ba480b12.jpg'><p><a href='https://i.postimg.cc/HW0x7Pqt/IMG-20230107-014935.jpg' data-lightbox='image-4' data-title='L.A Transit'>Ouvrir le visuel du lieu</a><h3>Station Strawberry</h3></p>");
  
