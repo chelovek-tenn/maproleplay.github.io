@@ -30,3 +30,29 @@ L.marker([-3753, 3011], {icon: cardIcon36}).addTo(map)
 L.marker([-3693, 3881], {icon: cardIcon36}).addTo(map)
     .bindPopup("<h2>Garage moyenne de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/8cQR3QWw/Approach.jpg' data-lightbox='image-4' data-title='Garage 870 Route 68 Approach'>Ouvrir le visuel du lieu</a><h3>Garage Blaine County</h3></p>");
 
+L.marker([-5620, 4350], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/cCVzFnK3/Mirror-park.jpg' data-lightbox='image-4' data-title='Garage 0897 Mirror Park Boulevard'>Ouvrir le visuel du lieu</a><h3>Garage North LS</h3></p>");
+L.marker([-6500, 3534], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/nrs5KkLZ/Innocence.jpg' data-lightbox='image-4' data-title='Garage Innocence Boulevard'>Ouvrir le visuel du lieu</a><h3>Garage West LS</h3></p>");
+L.marker([-5697, 2939], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/HWKFYfSL/634-del-perro.jpg' data-lightbox='image-4' data-title='Garage 634 Boulevard Del Perro'>Ouvrir le visuel du lieu</a><h3>Garage North LS</h3></p>");
+L.marker([-6555, 4131], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/50KTFGbn/Little-bighorn.jpg' data-lightbox='image-4' data-title='Garage 12 Little Bighorn Avenue'>Ouvrir le visuel du lieu</a><h3>Garage South LS</h3></p>");
+L.marker([-4484, 5382], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/3RxzN75k/Senora-way.jpg' data-lightbox='image-4' data-title='Garage 1920 Senora Way'>Ouvrir le visuel du lieu</a><h3>Garage Blaine County</h3></p>");
+L.marker([-2735, 2300], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/ncDgC05G/Great-ocean.jpg' data-lightbox='image-4' data-title='Garage 2000 Great Ocean Highway'>Ouvrir le visuel du lieu</a><h3>Garage Blaine County</h3></p>");
+L.marker([-6590, 4094], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Garage 0754 Roy Lowenstein Boulevard'>Ouvrir le visuel du lieu</a><h3>Garage South LS</h3></p>");
+L.marker([-3820, 3908], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/htMkBh6k/197-route-68.jpg' data-lightbox='image-4' data-title='Garage 197 Route 68'>Ouvrir le visuel du lieu</a><h3>Garage Blaine County</h3></p>");
+L.marker([-3699, 4177], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/ZKztPG6M/1200-route-68.jpg' data-lightbox='image-4' data-title='Garage 1200 Route 68'>Ouvrir le visuel du lieu</a><h3>Garage Blaine County</h3></p>");
+L.marker([-2449, 5438], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/KcMhMG3T/1932-grapeseed.jpg' data-lightbox='image-4' data-title='Garage 1932 Grapeseed Avenue'>Ouvrir le visuel du lieu</a><h3>Garage Grapeseed</h3></p>");
+L.marker([-1294, 3708], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/4NvCWW5N/142-paleto.jpg' data-lightbox='image-4' data-title='Garage 142 Paleto Boulevard'>Ouvrir le visuel du lieu</a><h3>Garage Paleto Bay</h3></p>");
+L.marker([-1422, 3591], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Garage 1 Strawberry Avenue'>Ouvrir le visuel du lieu</a><h3>Garage Paleto Bay</h3></p>");
+L.marker([-6306, 4240], {icon: cardIcon36}).addTo(map)
+    .bindPopup("<h2>Garage bas de gamme</h2><img class='logo' src='https://i.postimg.cc/htWhrs9M/garagelogo.png'><p><a href='https://i.postimg.cc/7LRM3TZF/Davis.jpg' data-lightbox='image-4' data-title='Garage Popular Street, Unit 124'>Ouvrir le visuel du lieu</a><h3>Garage East LS</h3></p>");
