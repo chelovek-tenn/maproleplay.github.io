@@ -94,4 +94,52 @@ L.marker([-3019, 5000], {icon: cardIcon37}).addTo(map)
 L.marker([-2384, 4856], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 1893 Grapeseed Avenue'>Ouvrir le visuel du lieu</a><h3>Maison Grapeseed</h3></p>");
 ////// Appartement ////
+L.marker([-5560, 3720], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/50KTFGbn/Little-bighorn.jpg' data-lightbox='image-4' data-title='Appart 2143 Las Lagunas Boulevard, Apt 9'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5743, 2739], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/cCVzFnK3/Mirror-park.jpg' data-lightbox='image-4' data-title='Appart 0069 Cougar Avenue, Apt 19'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5793, 2733], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/nrs5KkLZ/Innocence.jpg' data-lightbox='image-4' data-title='Appart 1237 Prosperity Street, Apt 21'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5403, 3616], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/50KTFGbn/Little-bighorn.jpg' data-lightbox='image-4' data-title='Appart 1561 San Vitas Street, Apt 2'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5816, 2687], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/50KTFGbn/Little-bighorn.jpg' data-lightbox='image-4' data-title='Appart 1115 Boulevard Del Perro, Apt 18'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-6087, 3319], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/cCVzFnK3/Mirror-park.jpg' data-lightbox='image-4' data-title='Appart 2057 Vespucci Boulevard, Apt 1'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
+L.marker([-6178, 3231], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/nrs5KkLZ/Innocence.jpg' data-lightbox='image-4' data-title='Appart 0112 South Rockford Drive, Apt 13'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
+
+L.marker([-5452, 3413], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/HWKFYfSL/634-del-perro.jpg' data-lightbox='image-4' data-title='Appart 0184 Milton Road, Apt 13'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5424, 3338], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/3RxzN75k/Senora-way.jpg' data-lightbox='image-4' data-title='Appart 0504 South Mo Milton Drive'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-6090, 3209], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/ncDgC05G/Great-ocean.jpg' data-lightbox='image-4' data-title='Appart 0325 South Rockford Drive'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
+L.marker([-6033, 3260], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Appart Dream Tower, Apt 15'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
+L.marker([-5628, 3934], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Appart 1162 Power Street, Apt 3'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5505, 3752], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Appart 0605 Spanish Avenue, Apt 1'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5472, 3743], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Appart 0604 Las Lagunas Boulevard, Apt 4'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5465, 3623], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/Z5JG267P/0754-Roy-lowenstein.jpg' data-lightbox='image-4' data-title='Appart The Royale, Apt 19'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+
+L.marker([-5334, 3223], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/htMkBh6k/197-route-68.jpg' data-lightbox='image-4' data-title='Appart Eclipse Towers, Apt 31 / 40 / 5 / 9 / 3'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5332, 3259], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/ZKztPG6M/1200-route-68.jpg' data-lightbox='image-4' data-title='Appart Eclipse Towers, Penthouse Suite 1 / 2 / 3'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5832, 3147], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/KcMhMG3T/1932-grapeseed.jpg' data-lightbox='image-4' data-title='Appart Weazel Plaza, Apt 101 / 70 / 26'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5501, 3331], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/4NvCWW5N/142-paleto.jpg' data-lightbox='image-4' data-title='Appart Tinsel Towers, Apt 29 / 45 / 42'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5781, 3139], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Appart Richards Majestic, Apt 51 / 4 / 2'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+L.marker([-5915, 3718], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/7LRM3TZF/Davis.jpg' data-lightbox='image-4' data-title='Appart 4 Integrity Way, Apt. 35 / 30 / 28'>Ouvrir le visuel du lieu</a><h3>Appart Downtown LS</h3></p>");
+L.marker([-6163, 3594], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/7LRM3TZF/Davis.jpg' data-lightbox='image-4' data-title='Appart 3 Alta Street Tower, Apt 57 / 10'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
+L.marker([-5828, 2849], {icon: cardIcon38}).addTo(map)
+    .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/7LRM3TZF/Davis.jpg' data-lightbox='image-4' data-title='Appart Del Perro Heights, Apt 20 / 7 / 4'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 
