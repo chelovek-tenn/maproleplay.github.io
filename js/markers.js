@@ -63,7 +63,7 @@ L.marker([-5235, 3990], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison haute gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 2044 North Conker Avenue'>Ouvrir le visuel du lieu</a><h3>Maison North LS</h3></p>");
 L.marker([-5242, 4003], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison haute gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 2045 North Conker Avenue'>Ouvrir le visuel du lieu</a><h3>Maison North LS</h3></p>");
-L.marker([-5135, 3287], {icon: cardIcon37}).addTo(map)
+L.marker([-5130, 3307], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison haute gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 2862 Hillcrest Avenue'>Ouvrir le visuel du lieu</a><h3>Maison North LS</h3></p>");
 L.marker([-5115, 3262], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison haute gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 2868 Hillcrest Avenue'>Ouvrir le visuel du lieu</a><h3>Maison North LS</h3></p>");
@@ -87,9 +87,9 @@ L.marker([-1222, 3684], {icon: cardIcon37}).addTo(map)
 L.marker([-6567, 4649], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 12 Sustancia Road'>Ouvrir le visuel du lieu</a><h3>Maison East LS</h3></p>");
 
-L.marker([-1201, 3767], {icon: cardIcon37}).addTo(map)
+L.marker([-1216, 3750], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 0232 Paleto Boulevard'>Ouvrir le visuel du lieu</a><h3>Maison Paleto Bay</h3></p>");
-L.marker([-3019, 5000], {icon: cardIcon37}).addTo(map)
+L.marker([-3045, 5008], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 140 Zancudo Avenue'>Ouvrir le visuel du lieu</a><h3>Maison Blaine County</h3></p>");
 L.marker([-2384, 4856], {icon: cardIcon37}).addTo(map)
     .bindPopup("<h2>Maison bas de gamme</h2><img class='logo' src='https://i.postimg.cc/7YY8mpKD/logomaison.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Maison 1893 Grapeseed Avenue'>Ouvrir le visuel du lieu</a><h3>Maison Grapeseed</h3></p>");
