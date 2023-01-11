@@ -112,7 +112,7 @@ L.marker([-6178, 3231], {icon: cardIcon38}).addTo(map)
 L.marker([-5452, 3413], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/hG7dV29k/Milton-road-0184.jpg' data-lightbox='image-4' data-title='Appart 0184 Milton Road, Apt 13'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 L.marker([-5424, 3338], {icon: cardIcon38}).addTo(map)
-    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='' data-lightbox='image-4' data-title='Appart 0504 South Mo Milton Drive'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/VsbCXtMS/South-Mo-Milton.jpg' data-lightbox='image-4' data-title='Appart 0504 South Mo Milton Drive'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 L.marker([-6090, 3209], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/85NKfgLX/0325-south-rock.jpg' data-lightbox='image-4' data-title='Appart 0325 South Rockford Drive'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
 L.marker([-6033, 3260], {icon: cardIcon38}).addTo(map)
@@ -122,7 +122,7 @@ L.marker([-5628, 3934], {icon: cardIcon38}).addTo(map)
 L.marker([-5505, 3752], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/JnvZ99R4/Spanish-avenue.jpg' data-lightbox='image-4' data-title='Appart 0605 Spanish Avenue, Apt 1'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 L.marker([-5472, 3743], {icon: cardIcon38}).addTo(map)
-    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='' data-lightbox='image-4' data-title='Appart 0604 Las Lagunas Boulevard, Apt 4'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
+    .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/02YKBqVP/0604-LAS-LAGUNAS.jpg' data-lightbox='image-4' data-title='Appart 0604 Las Lagunas Boulevard, Apt 4'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 L.marker([-5465, 3623], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart moyenne gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/9fcpb5Q6/The-royale.jpg' data-lightbox='image-4' data-title='Appart The Royale, Apt 19'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
 
