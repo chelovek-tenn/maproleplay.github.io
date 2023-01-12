@@ -64,6 +64,27 @@ a.bouton {
 
 .message-input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
 
-.progress-bar.animate {
-   width: 100%;
+
+.notification-popup {
+  display: none; /* cacher le popup par défaut */
+  position: fixed; /* fixer la position du popup */
+  top: 50%; /* centrer horizontalement */
+  left: 50%;
+  transform: translate(-50%, -50%); /* centrer verticalement */
+  background-color: #fff; /* couleur de fond */
+  padding: 20px; /* espace interne */
+  border: 1px solid #ccc; /* bordure */
+}
+
+.notification-message {
+  font-size: 18px; /* taille de police */
+  margin-bottom: 10px; /* espace entre le message et le bouton */
+}
+
+.notification-close {
+  background-color: #ccc; /* couleur de fond */
+  color: #fff; /* couleur de police */
+  border: none; /* pas de bordure */
+  padding: 5px 10px; /* espace interne */
+  cursor: pointer; /* curseur en forme de main */
 }
