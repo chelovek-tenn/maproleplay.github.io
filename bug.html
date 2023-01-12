@@ -41,11 +41,13 @@ document.getElementById("discord-form").addEventListener("submit", function(even
   })
   .then(response => response.json())
   .then(data => {
-  <input type="checkbox" id="one" class="hidden" name="ossm">  
-  <label for="one" class="alert-message">
-    <strong> <i class="fa fa-heart"></i> Merci</strong> Ton message est bien envoyer.
-    <span class="close">×</button>
-  </label> 
+var newDiv = document.createElement("div");
+
+// Ajouter le contenu HTML de la div
+newDiv.innerHTML = '<div class="notif peek">Refreshing...</div>';
+
+// Ajouter la div à l'élément parent
+document.body.appendChild(newDiv); 
 
   })
   .catch(error => {
