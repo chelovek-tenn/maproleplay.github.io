@@ -19,6 +19,29 @@
 </form>
 
 <script>
+	$('.close-me.right').on('click',function(){
+  $(this).closest('.mynotification').addClass('close-right');
+});
+$('.close-me.bottom').on('click',function(){
+  $(this).closest('.mynotification').addClass('close-bottom');
+});
+$('.close-me.left').on('click',function(){
+  $(this).closest('.mynotification').addClass('close-left');
+});
+var classes = ['close-right','close-bottom','close-left'];
+$('.close-me').on('click',function(){
+  if(
+    $('.mynotification').hasClass(classes[0]) &&
+    $('.mynotification').hasClass(classes[1]) &&
+    $('.mynotification').hasClass(classes[2])){
+      $('.mytitle').fadeOut(500,function(){
+        $('.mytitle').text('Refresh to see it again!').fadeIn(500);
+      });
+    }
+});
+	  </script>
+	  
+<script>
 var webhookURL = "https://discord.com/api/webhooks/1063133822385930351/9i3sjqXAjliFrXwRGoQCHsIX3-0kTMG4AGl3h80gdvtnIl6KisIw0zPnxJ3Rcab43mYm";
 
 document.getElementById("discord-form").addEventListener("submit", function(event) {
@@ -30,6 +53,7 @@ document.getElementById("discord-form").addEventListener("submit", function(even
   var data = {
     "content": message
   };
+
 
   // Envoyer une requête POST à l'URL de Webhook
   fetch(webhookURL, {
