@@ -14,7 +14,7 @@
   <body>
 
 <form id="discord-form">
-  <input type="text" id="message-input" placeholder="Bug que vous signalez" >
+  <input type="text" id="message-input">
   <button type="submit">Envoyer</button>
 </form>
 
@@ -39,7 +39,14 @@ document.getElementById("discord-form").addEventListener("submit", function(even
   })
   .then(response => response.json())
   .then(data => {
-    console.log("Message envoyé avec succès.");
+   <div class="col-xs-12 col-md-4">
+    <div class="mynotification">
+      <div class="close-me left"></div>
+      <div class="text-notification left-text">Message envoyer</div>
+
+    </div>
+  </div>
+</div>
   })
   .catch(error => {
     console.error("Erreur lors de l'envoi du message: ", error);
@@ -49,3 +56,5 @@ document.getElementById("discord-form").addEventListener("submit", function(even
 
 </body>
 </html>
+
+
