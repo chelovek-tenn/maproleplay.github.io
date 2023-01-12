@@ -25,17 +25,19 @@ body {
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
-.bouton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+a.button {
+  display: inline-block;
+  width: auto;
+  padding: 15px 35px;
   text-decoration: none;
-  margin: 25px;
-  color: rgba(0, 0, 0, 0.8);
-  background: rgb(255, 0, 0);
-  padding: 15px 40px;
-  border-radius: 4px;
-  font-weight: normal;
+  color: white;
   text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
+.red {
+  background: #CA3721;  
 }
