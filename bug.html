@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L.A Rôleplay 🌎</title>
+	<link href="css/icone.ico" type="image/x-icon" rel="icon"/>
+	<link href="css/icone.ico" type="image/x-icon" rel="shortcut icon"/>
+	<meta name="description" content="Carte interactive utilisée sur L.A Rôleplay. Discord: " />
+	<meta name="theme-color" content="#ffab00">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link href="css/bg.css" rel="stylesheet" />
+  </head>
+  <body>
+
+<form id="discord-form">
+  <input type="text" id="message-input">
+  <button type="submit">Envoyer</button>
+</form>
+
+<script>
+var webhookURL = "https://discord.com/api/webhooks/1063133822385930351/9i3sjqXAjliFrXwRGoQCHsIX3-0kTMG4AGl3h80gdvtnIl6KisIw0zPnxJ3Rcab43mYm";
+
+document.getElementById("discord-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  var message = document.getElementById("message-input").value;
+
+  // Préparer les données à envoyer
+  var data = {
+    "content": message
+  };
+
+  // Envoyer une requête POST à l'URL de Webhook
+  fetch(webhookURL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log("Message envoyé avec succès");
+  })
+  .catch(error => {
+    console.error("Erreur lors de l'envoi du message: ", error);
+  });
+});
+</script>
+
+</body>
+</html>
