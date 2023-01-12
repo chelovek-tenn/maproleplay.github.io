@@ -18,28 +18,6 @@
   <button type="submit">Envoyer</button>
 </form>
 
-<script>
-	$('.close-me.right').on('click',function(){
-  $(this).closest('.mynotification').addClass('close-right');
-});
-$('.close-me.bottom').on('click',function(){
-  $(this).closest('.mynotification').addClass('close-bottom');
-});
-$('.close-me.left').on('click',function(){
-  $(this).closest('.mynotification').addClass('close-left');
-});
-var classes = ['close-right','close-bottom','close-left'];
-$('.close-me').on('click',function(){
-  if(
-    $('.mynotification').hasClass(classes[0]) &&
-    $('.mynotification').hasClass(classes[1]) &&
-    $('.mynotification').hasClass(classes[2])){
-      $('.mytitle').fadeOut(500,function(){
-        $('.mytitle').text('Refresh to see it again!').fadeIn(500);
-      });
-    }
-});
-	  </script>
 	  
 <script>
 var webhookURL = "https://discord.com/api/webhooks/1063133822385930351/9i3sjqXAjliFrXwRGoQCHsIX3-0kTMG4AGl3h80gdvtnIl6KisIw0zPnxJ3Rcab43mYm";
@@ -63,14 +41,14 @@ document.getElementById("discord-form").addEventListener("submit", function(even
   })
   .then(response => response.json())
   .then(data => {
-   <div class="col-xs-12 col-md-4">
-    <div class="mynotification">
-      <div class="close-me left"></div>
-      <div class="text-notification left-text">Message envoyer</div>
+  <div>
 
-    </div>
-  </div>
-</div>
+  <input type="checkbox" id="one" class="hidden" name="ossm">  
+  <label for="one" class="alert-message">
+    <strong> <i class="fa fa-heart"></i> Merci</strong> Ton message est bien envoyer.
+    <span class="close">×</button>
+  </label> 
+</div> 
   })
   .catch(error => {
     console.error("Erreur lors de l'envoi du message: ", error);
