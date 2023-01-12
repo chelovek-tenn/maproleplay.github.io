@@ -16,18 +16,11 @@
 
 <form id="discord-form">
   <input type="text" id="message-input">
-	<button type="submit" id="load">Load It!</button>
-<div class="modal js-loading-bar">
- <div class="modal-dialog">
-   <div class="modal-content">
-     <div class="modal-body">
-       <div class="progress progress-popup">
-        <div class="progress-bar"></div>
-       </div>
-     </div>
-   </div>
- </div>
-</div> 
+	<button type="submit" id="notification-button">Envoyer</button>
+<div id="notification-popup">
+  <div id="notification-message">Notification</div>
+  <button id="notification-close">Fermer</button>
+</div>
 </form>
 	  
 <script>
@@ -36,17 +29,18 @@ this.$('.js-loading-bar').modal({
   show: false
 });
 
-$('#load').click(function() {
-  var $modal = $('.js-loading-bar'),
-      $bar = $modal.find('.progress-bar');
-  
-  $modal.modal('show');
-  $bar.addClass('animate');
+var button = document.querySelector('#notification-button');
+var popup = document.querySelector('#notification-popup');
+var close = document.querySelector('#notification-close');
 
-  setTimeout(function() {
-    $bar.removeClass('animate');
-    $modal.modal('hide');
-  }, 1500);
+// Ajouter un gestionnaire d'événement sur le bouton pour afficher le popup
+button.addEventListener('click', function() {
+  popup.style.display = 'block';
+});
+
+// Ajouter un gestionnaire d'événement sur le bouton de fermeture pour masquer le popup
+close.addEventListener('click', function() {
+  popup.style.display = 'none';
 });
 	
 var webhookURL = "https://discord.com/api/webhooks/1063133822385930351/9i3sjqXAjliFrXwRGoQCHsIX3-0kTMG4AGl3h80gdvtnIl6KisIw0zPnxJ3Rcab43mYm";
