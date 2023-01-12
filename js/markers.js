@@ -140,5 +140,5 @@ L.marker([-5915, 3718], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/tCBYL3rs/Integrity-way.jpg' data-lightbox='image-4' data-title='Appart 4 Integrity Way, Apt. 35 / 30 / 28'>Ouvrir le visuel du lieu</a><h3>Appart Downtown LS</h3></p>");
 L.marker([-6163, 3594], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/3rPGtCcY/Alta-street.jpg' data-lightbox='image-4' data-title='Appart 3 Alta Street Tower, Apt 57 / 10'>Ouvrir le visuel du lieu</a><h3>Appart West LS</h3></p>");
-L.marker([-5828, 2849], {icon: cardIcon38}).addTo(map)
+L.marker([-5891, 2811], {icon: cardIcon38}).addTo(map)
     .bindPopup("<h2>Appart haute gamme</h2><img class='logo' src='https://i.postimg.cc/7LftRmnb/appartlogo.png'><p><a href='https://i.postimg.cc/xjKsyC6x/Del-perro.jpg' data-lightbox='image-4' data-title='Appart Del Perro Heights, Apt 20 / 7 / 4'>Ouvrir le visuel du lieu</a><h3>Appart North LS</h3></p>");
