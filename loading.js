@@ -20,7 +20,7 @@ function redirect() {
   window.location.href = "https://l-a-roleplay.github.io/maproleplay.github.io/oninon.html";
 }
 
-document.getElementById("#text-anim").style.display = "block";
+document.getElementById("#container").style.display = "block";
 setTimeout(function() {
   document.getElementById("loading").style.display = "none";
   redirect();
