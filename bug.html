@@ -10,11 +10,30 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link href="css/bg.css" rel="stylesheet" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <style>
+    /* Style minimaliste pour le formulaire */
+    form {
+      border: 1px solid gray;
+      padding: 20px;
+      margin: 20px;
+    }
+    /* Style pour les champs de formulaire */
+    input, textarea {
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+    }
+    /* Style pour le bouton de soumission */
+    button {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+    }
+  </style>
   </head>
   <body>
 
-<form id="discord-form">
+
   <input type="text" id="message-input">
 	<button type="submit" id="notification-button">Envoyer</button>
 <div id="notification-popup">
@@ -22,37 +41,29 @@
   <button id="notification-close">Fermer</button>
 </div>
 </form>
+
+ <form id="discord-form">
+    <h2>Signaler un bug</h2>
+    <label for="nom">Votre discord :</label>
+    <input type="text" id="nom" name="nom"><br>
+    <label for="bug">Description du bug :</label>
+    <textarea id="bug" name="bug"></textarea><br>
+    <button type="submit">Envoyer</button>
+  </form>
 	  
 <script>
-this.$('.js-loading-bar').modal({
-  backdrop: 'static',
-  show: false
-});
 
-var button = document.querySelector('#notification-button');
-var popup = document.querySelector('#notification-popup');
-var close = document.querySelector('#notification-close');
-
-// Ajouter un gestionnaire d'événement sur le bouton pour afficher le popup
-button.addEventListener('click', function() {
-  popup.style.display = 'block';
-});
-
-// Ajouter un gestionnaire d'événement sur le bouton de fermeture pour masquer le popup
-close.addEventListener('click', function() {
-  popup.style.display = 'none';
-});
 	
 var webhookURL = "https://discord.com/api/webhooks/1063133822385930351/9i3sjqXAjliFrXwRGoQCHsIX3-0kTMG4AGl3h80gdvtnIl6KisIw0zPnxJ3Rcab43mYm";
 
 document.getElementById("discord-form").addEventListener("submit", function(event) {
   event.preventDefault();
 
-  var message = document.getElementById("message-input").value;
-
+  var message = document.getElementById("nom").value;
+var msg = document.getElementById("bug").value;
   // Préparer les données à envoyer
   var data = {
-    "content": message
+    "content": `${msg}, report un bug. Description: ${message}`
   };
 
 
