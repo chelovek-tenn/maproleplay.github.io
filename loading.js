@@ -16,6 +16,12 @@ function animation_text_1 (element){
   TweenMax.staggerFromTo(targetsDiv, 2, {opacity:0, y:90, ease: Elastic.easeOut.config(1.2, 0.5)}, {opacity:1, y:0, ease: Elastic.easeOut.config(1.2, 0.5)}, 0.03);
 }
 
-    setTimeout(function(){
-        window.location.href = "oninon.html";
-    }, 10000);
+function redirect() {
+  window.location.href = "https://l-a-roleplay.github.io/maproleplay.github.io/oninon.html";
+}
+
+document.getElementById("#text-anim").style.display = "block";
+setTimeout(function() {
+  document.getElementById("loading").style.display = "none";
+  redirect();
+}, 2000);
