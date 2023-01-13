@@ -29,6 +29,10 @@
       color: white;
       padding: 10px 20px;
     }
+    .success-message {
+      color: green;
+      display: none; /* Cachée par défaut */
+    }
   </style>
   </head>
   <body>
@@ -49,7 +53,22 @@
     <label for="bug">Description du bug :</label>
     <textarea id="bug" name="bug"></textarea><br>
     <button type="submit">Envoyer</button>
+     <p class="success-message">Votre rapport de bug a été envoyé avec succès !</p>
   </form>
+  <script>
+    // Récupérer le formulaire
+    var form = document.querySelector("form");
+
+    // Ajouter un gestionnaire d'événement de soumission au formulaire
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Empêcher l'envoi par défaut
+
+      // Afficher la notification de validation d'envoi
+      var successMessage = document.querySelector(".success-message");
+      successMessage.style.display = "block";
+      //Vous pouvez ajouter un message avec un timeout pour cacher la notification après un certain temps
+    });
+  </script>
 	  
 <script>
 
@@ -63,7 +82,7 @@ document.getElementById("discord-form").addEventListener("submit", function(even
 var msg = document.getElementById("bug").value;
   // Préparer les données à envoyer
   var data = {
-    "content": `${msg}, report un bug. Description: ${message}`
+    "content": `${message}, report un bug. Description: ${msg}`
   };
 
 
@@ -75,14 +94,7 @@ var msg = document.getElementById("bug").value;
   })
   .then(response => response.json())
   .then(data => {
-var newDiv = document.createElement("div");
-
-// Ajouter le contenu HTML de la div
-newDiv.innerHTML = '<div class="notif peek">Refreshing...</div>';
-
-// Ajouter la div à l'élément parent
-document.body.appendChild(newDiv); 
-
+console.log("Envoyer avec succès");
   })
   .catch(error => {
     console.error("Erreur lors de l'envoi du message: ", error);
