@@ -17,5 +17,5 @@ function animation_text_1 (element){
 }
 
     setTimeout(function(){
-        window.location.replace = "oninon.html";
-    }, 10000);
+        window.location.replace = "maproleplay.github.io/oninon.html";
+    }, 8000);
