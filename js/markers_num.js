@@ -73,7 +73,7 @@ L.marker([-6946, 4298], {icon: cardIcon16}).addTo(map)
     .bindPopup("<h2>Journaliste</h2><img class='logo' src='https://i.postimg.cc/W1YPxNJh/image.png'><p><a href='https://i.postimg.cc/NM1SGBL8/Weazel-News-Building-GTAV.png' data-lightbox='image-4' data-title='Bureau Weazel News'>Ouvrir le visuel du lieu</a><h3>Bureau Little Seoul</h3></p>");
  
   L.marker([-5272, 2238], {icon: cardIcon21}).addTo(map)
-    .bindPopup("<h2>Tribunale</h2><img class='logo' src='https://i.postimg.cc/vHqYwLJY/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Tribunale Los Santos'>Ouvrir le visuel du lieu</a><h3>Tribunale Pacific Bluffs</h3></p>");
+    .bindPopup("<h2>Tribunal</h2><img class='logo' src='https://i.postimg.cc/vHqYwLJY/image.png'><p><a href='https://i.postimg.cc/3RDfgH4v/IMG-20230114-102437.jpg' data-lightbox='image-4' data-title='Tribunale Los Santos'>Ouvrir le visuel du lieu</a><h3>Tribunale Pacific Bluffs</h3></p>");
  
 L.marker([-5988, 3590.5], {icon: cardIcon22}).addTo(map)
     .bindPopup("<h2>Agence de Travail</h2><img class='logo' src='https://i.postimg.cc/jSHMJZRK/image.png'><p><a href='https://i.postimg.cc/fTxrsY0y/IMG-20230107-020229.jpg' data-lightbox='image-4' data-title='Agence de travail'>Ouvrir le visuel du lieu</a><h3>Agence Downtown</h3></p>");
