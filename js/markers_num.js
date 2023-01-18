@@ -163,6 +163,10 @@ L.marker([-6294.5, 2983], {icon: cardIcon24}).addTo(map)
  L.marker([-5387, 3745.5], {icon: cardIcon24}).addTo(map)
     .bindPopup("<h2>Boite de nuit</h2><img class='logo' src='https://i.postimg.cc/rm8NBrRk/image.png'><p><a href='https://imgur.com/JOurhRf.png' data-lightbox='image-4' data-title='Boite de nuit'>Ouvrir le visuel du lieu</a><h3>Club Vinewood west</h3></p>");
  
+L.marker([-4446.5, 5525.5], {icon: cardIcon39}).addTo(map)
+    .bindPopup("<h2>Usine chimique</h2><img class='logo' src='https://i.postimg.cc/YSWGBqdP/us.png'><p><a href='https://i.postimg.cc/SQ7Zpm5j/usine.jpg' data-lightbox='image-4' data-title='Site usine chimique'>Ouvrir le visuel du lieu</a><h3>Site Palmer-Taylor</h3></p>");
 
-
+L.marker([-6470, 3285], {icon: cardIcon40}).addTo(map)
+    .bindPopup("<h2>Héliport Police</h2><img class='logo' src='https://i.postimg.cc/j5YWx09S/heliport.png'><p><a href='https://i.postimg.cc/3J8t8P51/helico.jpg' data-lightbox='image-4' data-title='Héliport'>Ouvrir le visuel du lieu</a><h3>Piste La Puerta</h3></p>");
+ 
 
