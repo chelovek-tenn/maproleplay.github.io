@@ -111,6 +111,10 @@ text-color: white;
       var successMessage = document.querySelector(".success-message");
       successMessage.style.display = "block";
       //Vous pouvez ajouter un message avec un timeout pour cacher la notification après un certain temps
+      setTimeout(() => {
+  successMessage.style.display = "hidden";
+}, "5000")
+
     });
   </script>
 	  
