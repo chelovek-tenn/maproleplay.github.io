@@ -5,4 +5,4 @@ var lng = hash[2];
 
 // Initialiser la carte
 var map = L.map('map').setView([lat, lng], zoom);
-var marker = L.marker([lat, lng], {icon: cardIcon4}).addTo(map);
+L.marker([lat, lng], {icon: cardIcon4}).addTo(map);
