@@ -39,7 +39,7 @@
 	map.on('click', function(e) {
   var lat = e.latlng.lat.toFixed(2);
   var lng = e.latlng.lng.toFixed(2);
-  var url = window.location.href.split("#")[0] + "#3/" + lng + "/" + lat;
+  var url = window.location.href.split("#")[0] + "#1/" + lng + "/" + lat;
   navigator.clipboard.writeText(url).then(function() {
     var alertPopup = L.popup().setContent("URL copiée dans le presse-papiers !");
     alertPopup.setLatLng(e.latlng).openOn(map);
@@ -52,7 +52,7 @@
 });
 		  
 		  function copyURL() {
-  var url = window.location.href.split("#")[0] + "#3/" + map.getCenter().lng.toFixed(2) + "/" + map.getCenter().lat.toFixed(2);
+  var url = window.location.href.split("#")[0] + "#6/" + map.getCenter().lng.toFixed(2) + "/" + map.getCenter().lat.toFixed(2);
   navigator.clipboard.writeText(url).then(function() {
     var alertPopup = L.popup().setContent("URL copiée !");
     alertPopup.setLatLng(map.getCenter()).openOn(map);
