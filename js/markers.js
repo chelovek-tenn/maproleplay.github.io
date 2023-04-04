@@ -4,4 +4,4 @@ var lat = hash[1];
 var lng = hash[2];
 
 // Initialiser la carte
-L.marker([lat, lng], {icon: cardIcon4}).addTo(map);
+L.marker([lat, lng], {icon: cardIcon1}).addTo(map);
