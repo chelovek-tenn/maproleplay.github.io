@@ -33,28 +33,21 @@
     <div id="map"></div>
     <script src="js/core.js"></script>
     <script src="js/markers.js"></script>
-	  <script> map.on('click', function(e) {
-  // Récupérer les coordonnées de l'endroit où le clic a été effectué
-  var lat = e.latlng.lat;
-  var lng = e.latlng.lng;
-
-  // Créer l'URL avec les coordonnées
-  var url = window.location.href.split('#')[0] + '#2/' + lat + '/' + lng;
-
-  // Copier l'URL dans le presse-papier
-  navigator.clipboard.writeText(url)
-    .then(function() {
-      // Afficher une alerte pour informer l'utilisateur que l'URL a été copiée dans le presse-papier
-      window.alert('L\'URL a été copiée dans le presse-papier.');
-    })
-    .catch(function() {
-      // Afficher une alerte si la copie dans le presse-papier a échoué
-      window.alert('La copie dans le presse-papier a échoué.');
-    });
+	  <script>
+	map.on('click', function(e) {
+  var lat = e.latlng.lat.toFixed(2);
+  var lng = e.latlng.lng.toFixed(2);
+  var url = window.location.href.split("#")[0] + "#2/-" + lng + "/" + lat;
+  navigator.clipboard.writeText(url).then(function() {
+    var alertPopup = L.popup().setContent("URL copiée dans le presse-papiers !");
+    alertPopup.setLatLng(e.latlng).openOn(map);
+    setTimeout(function() {
+      map.closePopup(alertPopup);
+    }, 2000);
+  }, function() {
+    alert("Erreur lors de la copie de l'URL !");
+  });
 });
-
-Ce code récupère les coordonnées de l'endroit où l'utilisateur a cliqué sur la carte, crée une URL avec ces coordonnées, copie cette URL dans le presse-papier en utilisant navigator.clipboard.writeText(), puis affiche une alerte pour informer l'utilisateur que l'URL a été copiée dans le presse-papier ou que la copie a échoué.
-Was this response better or worse?
 	  </script>
   </body>
 </html>
