@@ -50,6 +50,17 @@
     alert("Erreur lors de la copie de l'URL !");
   });
 });
+		  
+		  function copyURL() {
+  var url = window.location.href.split("#")[0] + "#3/" + map.getCenter().lng.toFixed(2) + "/" + map.getCenter().lat.toFixed(2);
+  navigator.clipboard.writeText(url).then(function() {
+    var alertPopup = L.popup().setContent("URL copiée !");
+    alertPopup.setLatLng(map.getCenter()).openOn(map);
+  }, function() {
+    var alertPopup = L.popup().setContent("Erreur lors de la copie de l'URL");
+    alertPopup.setLatLng(map.getCenter()).openOn(map);
+  });
+}
 	  </script>
   </body>
 </html>
