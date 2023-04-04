@@ -43,7 +43,6 @@
   navigator.clipboard.writeText(url).then(function() {
     var alertPopup = L.popup().setContent("URL copiée dans le presse-papiers !");
     alertPopup.setLatLng(e.latlng).openOn(map);
-	 initialize();
     setTimeout(function() {
       map.closePopup(alertPopup);
     }, 2000);
