@@ -33,11 +33,3 @@ var numMarker = L.Icon.extend({
     iconUrl: "markers/ammu.png"
 });
 var hash = new L.Hash(map);
-
-// Récupération des coordonnées du marqueur dans l'URL
-var hashParams = L.Hash.parseHash(location.hash);
-if (hashParams.marker) {
-  var coords = hashParams.marker.split(',');
-  var latlng = L.latLng(coords[0], coords[1]);
-  L.marker(latlng, {icon: cardIcon1}).addTo(map);
-}
