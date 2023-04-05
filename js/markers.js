@@ -1,11 +1,15 @@
+var url = window.location.href;
+var match = url.match(/#(\d+)\/([\d\.]+)\/([\d\.]+)/);
 
- var hash = window.location.hash.substring(1).split('/');
-var zoom = hash[0];
-var lat = hash[1];
-var lng = hash[2];
+if (match) {
+  var zoom = parseInt(match[1], 10);
+  var lat = parseFloat(match[2]);
+  var lng = parseFloat(match[3]);
 
-// Initialiser la carte
-L.marker([lat, lng], {icon: cardIcon1}).addTo(map);
+  if (!isNaN(zoom) && !isNaN(lat) && !isNaN(lng)) {
+    L.marker([lat, lng], {icon: cardMarker1})).addTo(map);
+  }
+}
 
 
 
