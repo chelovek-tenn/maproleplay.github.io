@@ -1,19 +1,20 @@
 <html>
   <head>
-<script> function setMarker() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const lat = urlParams.get("lat");
-  const lng = urlParams.get("lng");
+<script> const urlParams = new URLSearchParams(window.location.search);
+const lat = parseFloat(urlParams.get("lat"));
+const lng = parseFloat(urlParams.get("lng"));
 
-  // Inverser les valeurs de lat et lng
-  const invertedLat = -1 * parseFloat(lat);
-  const invertedLng = -1 * parseFloat(lng);
+// changement des coordonnées si nécessaire
 
-  map.setView([invertedLat, invertedLng], 13);
-  const marker = L.marker([invertedLat, invertedLng]).addTo(map);
 
-  marker.bindPopup("Position actuelle").openPopup();
-}
+// création de la carte
+// ajout du marqueur
+L.marker([lat, lng]).addTo(map);
+  lat = -4096;
+  lng = 4096;
+  // mise à jour de l'URL avec les nouvelles coordonnées
+  const newParams = new URLSearchParams("?lat=" + lat + "&lng=" + lng);
+  window.history.replaceState({}, '', decodeURIComponent(`${location.pathname}?${newParams}`));
 	  </script>
     <title>Carte agence immobilière - L.A RP</title>
 	<meta name="description" content="Une carte pour regarder les propriétées possible a acheter."/>
