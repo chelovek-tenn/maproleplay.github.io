@@ -1,7 +1,7 @@
 <html>
   <head>
 <script> const url = window.location.search
-*const coords = url.split('/').slice(-2); // récupère les deux derniers éléments après la dernière barre "/"
+const coords = url.split('/').slice(-2); // récupère les deux derniers éléments après la dernière barre "/"
 const lat = parseFloat(coords[0]); // convertit la latitude en nombre
 const lng = parseFloat(coords[1]);
 	var marker = L.marker([lat, lng]).addTo(map);
