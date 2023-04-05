@@ -1,20 +1,11 @@
 <html>
   <head>
-<script> const urlParams = new URLSearchParams(window.location.search);
-const lat = parseFloat(urlParams.get("lat"));
-const lng = parseFloat(urlParams.get("lng"));
-
-// changement des coordonnées si nécessaire
-
-
-// création de la carte
-// ajout du marqueur
-L.marker([lat, lng]).addTo(map);
-  lat = -4096;
-  lng = 4096;
-  // mise à jour de l'URL avec les nouvelles coordonnées
-  const newParams = new URLSearchParams("?lat=" + lat + "&lng=" + lng);
-  window.history.replaceState({}, '', decodeURIComponent(`${location.pathname}?${newParams}`));
+<script> const url = window.location.search
+*const coords = url.split('/').slice(-2); // récupère les deux derniers éléments après la dernière barre "/"
+const lat = parseFloat(coords[0]); // convertit la latitude en nombre
+const lng = parseFloat(coords[1]);
+	var marker = L.marker([lat, lng]).addTo(map);
+marker.bindPopup("Ma position");
 	  </script>
     <title>Carte agence immobilière - L.A RP</title>
 	<meta name="description" content="Une carte pour regarder les propriétées possible a acheter."/>
