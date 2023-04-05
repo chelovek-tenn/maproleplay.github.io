@@ -1,13 +1,5 @@
 <html>
   <head>
-	     <script src="js/core.js"></script>
-<script> const url = window.location.search
-const coords = url.split('/').slice(-2); // récupère les deux derniers éléments après la dernière barre "/"
-const lat = parseFloat(coords[0]); // convertit la latitude en nombre
-const lng = parseFloat(coords[1]);
-	var marker = L.marker([lat, lng]).addTo(map);
-marker.bindPopup("Ma position");
-	  </script>
     <title>Carte agence immobilière - L.A RP</title>
 	<meta name="description" content="Une carte pour regarder les propriétées possible a acheter."/>
 	<link href="css/icone.ico" type="image/x-icon" rel="icon"/>
@@ -39,7 +31,14 @@ marker.bindPopup("Ma position");
 
 
     <div id="map"></div>
-
+	     <script src="js/core.js"></script>
+<script> const url = window.location.search
+const coords = url.split('/').slice(-2); // récupère les deux derniers éléments après la dernière barre "/"
+const lat = parseFloat(coords[0]); // convertit la latitude en nombre
+const lng = parseFloat(coords[1]);
+	var marker = L.marker([lat, lng]).addTo(map);
+marker.bindPopup("Ma position");
+	  </script>
 
   </body>
 </html>
