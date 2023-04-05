@@ -9,7 +9,13 @@
 		this.onHashChange = L.Util.bind(this.onHashChange, this);
 
 		if (map) {
+
 			this.init(map);
+var hashParams = L.Hash.parseHash(location.hash);
+if (hashParams && hashParams.marker) {
+    var markerCoords = hashParams.marker.split(',');
+    L.marker([markerCoords[0], markerCoords[1]], cardIcon1).addTo(map);
+}
 		}
 	};
 
