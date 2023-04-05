@@ -7,7 +7,7 @@ if (match) {
   var lng = parseFloat(match[3]);
 
   if (!isNaN(zoom) && !isNaN(lat) && !isNaN(lng)) {
-    L.marker([lat, lng], {icon: cardMarker1})).addTo(map);
+    L.marker([lat, lng], {icon: cardMarker1}).addTo(map);
   }
 }
 
