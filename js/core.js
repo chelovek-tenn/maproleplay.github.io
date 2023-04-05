@@ -23,13 +23,24 @@ layer = L.tileLayer("{z}/{x}/{y}.png", {
 }).addTo(map),
 map.fitBounds([crs.unproject(L.point(mapExtent[2], mapExtent[3])), crs.unproject(L.point(mapExtent[0], mapExtent[1]))]),
 L.control.mousePosition().addTo(map);
+
 var numMarker = L.Icon.extend({
     options: {
         iconSize: [32, 37],
         iconAnchor: [16, 37]
     }
 })
-  , cardIcon1 = new numMarker({
+, cardIcon1 = new numMarker({
     iconUrl: "markers/ammu.png"
 });
+
 var hash = new L.Hash(map);
+
+// Utilisation d'un événement personnalisé pour détecter quand le hash a été initialisé
+map.on('hashchange', function() {
+    var hashParams = hash.parseHash(location.hash);
+    if (hashParams.marker) {
+        var coords = hashParams.marker.split(',');
+        L.marker([coords[0], coords[1]], {icon: cardIcon1}).addTo(map);
+    }
+});
