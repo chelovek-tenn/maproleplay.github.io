@@ -31,6 +31,21 @@
 
 
     <div id="map"></div>
+<script> function setMarker() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const lat = urlParams.get("lat");
+  const lng = urlParams.get("lng");
+
+  // Inverser les valeurs de lat et lng
+  const invertedLat = -1 * parseFloat(lat);
+  const invertedLng = -1 * parseFloat(lng);
+
+  map.setView([invertedLat, invertedLng], 13);
+  const marker = L.marker([invertedLat, invertedLng]).addTo(map);
+
+  marker.bindPopup("Position actuelle").openPopup();
+}
+	  </script>
     <script src="js/core.js"></script>
     <script src="js/markers.js"></script>
 
