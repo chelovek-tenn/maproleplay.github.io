@@ -108,14 +108,6 @@
 			} else {
 				this.onMapMove(this.map);
 			}
-		 var urlParams = new URLSearchParams(window.location.hash.slice(1));
-  var markerCoords = urlParams.get("marker");
-  if (markerCoords) {
-    var coords = markerCoords.split(",");
-    var marker = L.marker(coords);
-    marker.addTo(map);
-    map.setView(coords, mapMaxZoom);
-  }
 		},
 
 		// defer hash change updates every 100ms
