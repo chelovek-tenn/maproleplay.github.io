@@ -24,12 +24,6 @@ layer = L.tileLayer("{z}/{x}/{y}.png", {
 map.fitBounds([crs.unproject(L.point(mapExtent[2], mapExtent[3])), crs.unproject(L.point(mapExtent[0], mapExtent[1]))]),
 L.control.mousePosition().addTo(map);
 
-var numMarker = L.Icon.extend({
-    options: {
-        iconSize: [32, 37],
-        iconAnchor: [16, 37]
-    }
-}), 
 
 var hash = new L.Hash(map);
 
