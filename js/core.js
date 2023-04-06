@@ -29,10 +29,7 @@ var numMarker = L.Icon.extend({
         iconSize: [32, 37],
         iconAnchor: [16, 37]
     }
-})
-, cardIcon1 = new numMarker({
-    iconUrl: "markers/ammu.png"
-});
+}), 
 
 var hash = new L.Hash(map);
 
