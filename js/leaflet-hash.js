@@ -16,15 +16,8 @@
             var hashParams = L.Hash.parseHash(location.hash);
 if (hashParams && hashParams.marker) {
     var markerCoords = hashParams.marker.split(',');
-var numMarker = L.Icon.extend({
-    options: {
-        iconSize: [32, 37],
-        iconAnchor: [16, 37]
-    }
-}), 
-var cardIcon1 = new numMarker({
-    iconUrl: "markers/ammu.png"
-});
+
+	var numMarker=L.Icon.extend({options:{iconSize:[32,37],iconAnchor:[16,37]}}),cardIcon1=new numMarker({iconUrl:"markers/ammu.png"}),
     L.marker([markerCoords[0], markerCoords[1], cardIcon1).addTo(map);
 }
             }
