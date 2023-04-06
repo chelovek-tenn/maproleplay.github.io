@@ -22,7 +22,7 @@ var numMarker = L.Icon.extend({
         iconAnchor: [16, 37]
     }
 }), 
-cardIcon1 = new numMarker({
+var cardIcon1 = new numMarker({
     iconUrl: "markers/ammu.png"
 });
     L.marker([markerCoords[0], markerCoords[1], cardIcon1).addTo(map);
