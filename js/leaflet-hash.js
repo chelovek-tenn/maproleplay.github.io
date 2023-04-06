@@ -1,56 +1,76 @@
 (function(window) {
-	var HAS_HASHCHANGE = (function() {
-		var doc_mode = window.documentMode;
-		return ('onhashchange' in window) &&
-			(doc_mode === undefined || doc_mode > 7);
-	})();
+    var HAS_HASHCHANGE = (function() {
+        var doc_mode = window.documentMode;
+        return ('onhashchange' in window) &&
+            (doc_mode === undefined || doc_mode > 7);
+    })();
 
-	L.Hash = function(map) {
-		this.onHashChange = L.Util.bind(this.onHashChange, this);
+    L.Hash = function(map) {
+        this.onHashChange = L.Util.bind(this.onHashChange, this);
 
-		if (map) {
+        if (map) {
 
-			this.init(map);
-var hashParams = L.Hash.parseHash(location.hash);
-if (hashParams && hashParams.marker) {
-    var markerCoords = hashParams.marker.split(',');
-    L.marker([markerCoords[0], markerCoords[1]], cardIcon1).addTo(map);
-}
-		}
-	};
+            this.init(map);
 
-	L.Hash.parseHash = function(hash) {
-		if(hash.indexOf('#') === 0) {
-			hash = hash.substr(1);
-		}
-		var args = hash.split("/");
-		if (args.length == 3) {
-			var zoom = parseInt(args[0], 10),
-			lat = parseFloat(args[1]),
-			lon = parseFloat(args[2]);
-			if (isNaN(zoom) || isNaN(lat) || isNaN(lon)) {
-				return false;
-			} else {
-				return {
-					center: new L.LatLng(lat, lon),
-					zoom: zoom
-				};
-			}
-		} else {
-			return false;
-		}
-	};
+            // Parse hash to check if there is a marker to be added to the map
+            var hashParams = L.Hash.parseHash(location.hash);
+            if (hashParams && hashParams.marker) {
+                var markerCoords = hashParams.marker.split(',');
+                L.marker([markerCoords[0], markerCoords[1]], cardIcon1).addTo(map);
+            }
+        }
+    };
 
-	L.Hash.formatHash = function(map) {
-		var center = map.getCenter(),
-		    zoom = map.getZoom(),
-		    precision = Math.max(0, Math.ceil(Math.log(zoom) / Math.LN2));
+    L.Hash.parseHash = function(hash) {
+        if(hash.indexOf('#') === 0) {
+            hash = hash.substr(1);
+        }
+        var args = hash.split("/");
+        if (args.length == 3) {
+            var zoom = parseInt(args[0], 10),
+            lat = parseFloat(args[1]),
+            lon = parseFloat(args[2]);
+            if (isNaN(zoom) || isNaN(lat) || isNaN(lon)) {
+                return false;
+            } else {
+                return {
+                    center: new L.LatLng(lat, lon),
+                    zoom: zoom
+                };
+            }
+        } else if (args.length == 4 && args[3].startsWith('marker=')) {
+            var zoom = parseInt(args[0], 10),
+            lat = parseFloat(args[1]),
+            lon = parseFloat(args[2]),
+            marker = args[3].substring(7);
+            if (isNaN(zoom) || isNaN(lat) || isNaN(lon)) {
+                return false;
+            } else {
+                return {
+                    center: new L.LatLng(lat, lon),
+                    zoom: zoom,
+                    marker: marker
+                };
+            }
+        } else {
+            return false;
+        }
+    };
 
-		return "#" + [zoom,
-			center.lat.toFixed(precision),
-			center.lng.toFixed(precision)
-		].join("/");
-	},
+    L.Hash.formatHash = function(map, marker) {
+        var center = map.getCenter(),
+            zoom = map.getZoom(),
+            precision = Math.max(0, Math.ceil(Math.log(zoom) / Math.LN2)),
+            hash = "#" + [zoom,
+                center.lat.toFixed(precision),
+                center.lng.toFixed(precision)
+            ].join("/");
+
+        if (marker) {
+            hash += '/marker=' + marker;
+        }
+        return hash;
+    },
 
 	L.Hash.prototype = {
 		map: null,
