@@ -34,16 +34,19 @@
 	     <script src="js/core.js"></script>
 	<script>
 		// Récupérer les paramètres de l'URL
-const params = new URLSearchParams(window.location.hash.slice(1));
-const markerParam = params.get("marker");
+cvar markerParam = location.hash.split('marker=')[1];
+if (markerParam) {
+  var coords = markerParam.split(',');
+  var lat = parseFloat(coords[0]);
+  var lng = parseFloat(coords[1]);
 
-// On convertit la chaîne de caractères "markerParam" en un tableau de nombres
-const [lat, lng] = markerParam.split(",").map(parseFloat);
+  // Ajouter un marqueur à la carte aux coordonnées spécifiées
+  var marker = L.marker([lat, lng]).addTo(map);
+marker.addTo(map);
 
-const marker = L.marker([lat, lng]);
+}
 
 // On ajoute le marqueur à la carte
-marker.addTo(map);
 	</script>
 
 
