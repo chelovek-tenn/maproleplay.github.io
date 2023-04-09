@@ -34,15 +34,17 @@
 	     <script src="js/core.js"></script>
 	<script>
 
-var numMarker = L.Icon.extend({options:{iconSize:[32,37],iconAnchor:[16,37]}}),cardIcon1=new numMarker({iconUrl:"markers/ammu.png"});
-
-const urlParams = new URLSearchParams(window.location.hash.slice(1));
-const markerParam = urlParams.get("marker");
-
-// Si le paramètre marker existe, l'utiliser pour placer un marqueur sur la carte
+var urlParams = new URLSearchParams(window.location.hash.substring(1));
+var markerParam = urlParams.get('marker');
 if (markerParam) {
-  const [lat, lng] = markerParam.split(",");
-  L.marker([lat, lng], icon: cardIcon1).addTo(map);
+  // Diviser la chaîne de coordonnées en un tableau de nombres
+  var coords = markerParam.split(',');
+  if (coords.length === 2) {
+    // Créer un marqueur à partir des coordonnées
+    var marker = L.marker(coords);
+    // Ajouter le marqueur à la carte
+    marker.addTo(map);
+  }
 }
 	</script>
 
