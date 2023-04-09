@@ -34,17 +34,12 @@
 	     <script src="js/core.js"></script>
 	<script>
 
-var urlParams = new URLSearchParams(window.location.hash.substring(1));
+var urlParams = new URLSearchParams(window.location.hash.slice(1));
 var markerParam = urlParams.get('marker');
-if (markerParam) {
-  // Diviser la chaîne de coordonnées en un tableau de nombres
-  var coords = markerParam.split(',');
-  if (coords.length === 2) {
-    // Créer un marqueur à partir des coordonnées
-    var marker = L.marker(coords);
-    // Ajouter le marqueur à la carte
-    marker.addTo(map);
-  }
+if(markerParam){
+  var markerCoords = markerParam.split(',');
+  var marker = L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])]);
+  marker.addTo(map);
 }
 	</script>
 
