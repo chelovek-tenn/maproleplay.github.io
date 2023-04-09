@@ -38,7 +38,7 @@
 		var markerParam = params.get('marker');
 
 		// Initialiser la carte
-		var mymap = L.map('map').setView([-4920, 3724], 2);
+		var mymap = L.map('map').setView([-4096, 4096], 1);
 
 		// Ajouter une couche de tuiles OpenStreetMap
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -49,8 +49,8 @@
 		// Ajouter un marqueur si le paramètre "marker" est présent dans l'URL
 		if (markerParam) {
 			var markerCoords = markerParam.split(',');
-			var marker = L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])]).addTo(mymap);
-			mymap.setView([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])], 12);
+		        L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])]).addTo(mymap);
+			mymap.setView([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])], 2);
 		}
 	</script>
 
