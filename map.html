@@ -33,14 +33,16 @@
     <div id="map"></div>
 	     <script src="js/core.js"></script>
 	<script>
-// Récupérer l'URL courante avec le paramètre marker
+
+var numMarker = L.Icon.extend({options:{iconSize:[32,37],iconAnchor:[16,37]}}),cardIcon1=new numMarker({iconUrl:"markers/ammu.png"});
+
 const urlParams = new URLSearchParams(window.location.hash.slice(1));
 const markerParam = urlParams.get("marker");
 
 // Si le paramètre marker existe, l'utiliser pour placer un marqueur sur la carte
 if (markerParam) {
   const [lat, lng] = markerParam.split(",");
-  L.marker([lat, lng]).addTo(map);
+  L.marker([lat, lng], icon: cardIcon1).addTo(map);
 }
 	</script>
 
