@@ -35,23 +35,13 @@
 	<script>
 		// Récupérer les paramètres de l'URL
 const urlParams = new URLSearchParams(window.location.search);
-if (map) {
-  // La carte existe déjà, supprimer tous les marqueurs existants
-  map.eachLayer(function (layer) {
-    if (layer instanceof L.Marker) {
-      map.removeLayer(layer);
-    }
-  });
-} else {
-  // La carte n'existe pas encore, créer une nouvelle instance
-  console.error();
-}
+const markerCoords = urlParams.get('marker').split(',');
 
-// Ajouter un marqueur si le paramètre marker est présent dans l'URL
-if (urlParams.has('marker')) {
-  const markerParam = urlParams.get('marker').split(',');
-  const latlng = L.latLng(parseFloat(markerParam[0]), parseFloat(markerParam[1]));
-  const marker = L.marker(latlng).addTo(map);
+// Créez un marqueur avec les coordonnées x et y
+const marker = L.marker(markerCoords);
+
+// Ajoutez le marqueur à la carte
+marker.addTo(map);
 }
 	</script>
 
