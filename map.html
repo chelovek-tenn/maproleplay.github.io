@@ -33,12 +33,11 @@
     <div id="map"></div>
 	     <script src="js/core.js"></script>
 	<script>
-var cardIcon1 = new numMarker({iconUrl: "markers/ammu.png"});
 var urlParams = new URLSearchParams(window.location.hash.slice(1));
 var markerParam = urlParams.get('marker');
 if(markerParam){
   var markerCoords = markerParam.split(',');
-  var marker = L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])], {icon: cardIcon1});
+  var marker = L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])]);
   marker.addTo(map);
 }
 	</script>
