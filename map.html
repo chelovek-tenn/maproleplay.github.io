@@ -34,6 +34,7 @@
 	     <script src="js/core.js"></script>
 	<script>
 		// Récupérer les paramètres de l'URL
+const urlParams = new URLSearchParams(window.location.search);
 if (map) {
   // La carte existe déjà, supprimer tous les marqueurs existants
   map.eachLayer(function (layer) {
@@ -43,13 +44,14 @@ if (map) {
   });
 } else {
   // La carte n'existe pas encore, créer une nouvelle instance
- console.error();
+  console.error();
 }
 
 // Ajouter un marqueur si le paramètre marker est présent dans l'URL
-if (markerParam) {
-  var markerCoords = markerParam.split(',');
-  var marker = L.marker([markerCoords[0], markerCoords[1]]).addTo(map);
+if (urlParams.has('marker')) {
+  const markerParam = urlParams.get('marker').split(',');
+  const latlng = L.latLng(parseFloat(markerParam[0]), parseFloat(markerParam[1]));
+  const marker = L.marker(latlng).addTo(map);
 }
 	</script>
 
