@@ -6,10 +6,12 @@ var numMarker=L.icon({
   iconAnchor:[16,37]
 });
 
-var marker = null;
-var markerParam = new URLSearchParams(window.location.hash.slice(1)).get('marker');
+var urlParams = new URLSearchParams(window.location.hash.slice(1));
+var markerParam = urlParams.get('marker');
+
+// Création du marqueur et affichage sur la carte
 if (markerParam) {
-  var coords = markerParam.split(',');
-  var latlng = L.latLng(coords[0], coords[1]);
-  marker = L.marker(latlng, {icon:numMarker}).addTo(map);
+  var markerCoordinates = markerParam.split(',');
+  var marker = L.marker([markerCoordinates[0], markerCoordinates[1]]);
+  marker.addTo(map);
 }
