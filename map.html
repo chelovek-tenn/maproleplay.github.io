@@ -34,24 +34,23 @@
 	     <script src="js/core.js"></script>
 	<script>
 		// Récupérer les paramètres de l'URL
-		var params = new URLSearchParams(window.location.search);
-		var markerParam = params.get('marker');
+if (map) {
+  // La carte existe déjà, supprimer tous les marqueurs existants
+  map.eachLayer(function (layer) {
+    if (layer instanceof L.Marker) {
+      map.removeLayer(layer);
+    }
+  });
+} else {
+  // La carte n'existe pas encore, créer une nouvelle instance
+ console.error();
+}
 
-		// Initialiser la carte
-		var mymap = L.map('map').setView([-4096, 4096], 1);
-
-		// Ajouter une couche de tuiles OpenStreetMap
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-			maxZoom: 18
-		}).addTo(mymap);
-
-		// Ajouter un marqueur si le paramètre "marker" est présent dans l'URL
-		if (markerParam) {
-			var markerCoords = markerParam.split(',');
-		        L.marker([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])]).addTo(mymap);
-			mymap.setView([parseFloat(markerCoords[0]), parseFloat(markerCoords[1])], 2);
-		}
+// Ajouter un marqueur si le paramètre marker est présent dans l'URL
+if (markerParam) {
+  var markerCoords = markerParam.split(',');
+  var marker = L.marker([markerCoords[0], markerCoords[1]]).addTo(map);
+}
 	</script>
 
 
