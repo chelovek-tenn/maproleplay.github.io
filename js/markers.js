@@ -1,8 +1,8 @@
-var urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('marker')) {
-  var markerCoords = urlParams.get('marker').split(',');
-  var markerLat = parseFloat(markerCoords[0]);
-  var markerLng = parseFloat(markerCoords[1]);
+const params = new URLSearchParams(window.location.hash.slice(1));
+const marker = params.get("marker");
+
+if (marker) {
+  const [markerlat, markerlng] = marker.split(",");
 
   // Création d'un marqueur à partir des coordonnées récupérées
 L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
