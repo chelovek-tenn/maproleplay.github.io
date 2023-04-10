@@ -12,10 +12,11 @@ var cardIcon1 = new numMarker({
 });
 
 const markerParam = window.location.search.split('?')[1].split('&')[0];
-const markerLatLng = markerParam.split(',')[0].split('.');
-const markerLat = +markerLatLng[0];
-const markerLng = +markerLatLng[1];
-
+if (markerParam) {
+  const markerLatLng = markerParam.split(',')[0].split('.');
+  const markerLat = +markerLatLng[0];
+  const markerLng = +markerLatLng[1];
+}
 const marker = new L.Marker([markerLat, markerLng], { icon: cardIcon1 });
 map.addLayer(marker);
 
