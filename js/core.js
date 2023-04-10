@@ -1,34 +1,17 @@
-var mapExtent = [0,-8192,8192,0];
-var mapMinZoom = 1;
-var mapMaxZoom = 6;
-var mapMaxResolution = .25;
-var mapMinResolution = Math.pow(2,mapMaxZoom) * mapMaxResolution;
-var tileExtent = [0,-8192,8192,0];
-var crs = L.CRS.Simple;
-crs.transformation = new L.Transformation(1,-tileExtent[0],-1,tileExtent[3]);
-crs.scale = function(r) {
-  return Math.pow(2,r)/mapMinResolution
-};
-crs.zoom = function(r) {
-  return Math.log(r*mapMinResolution)/Math.LN2
-};
-
-var map = new L.Map("map", {
-  maxZoom: mapMaxZoom,
-  minZoom: mapMinZoom,
-  crs: crs
-});
+var layer,mapExtent=[0,-8192,8192,0],mapMinZoom=1,mapMaxZoom=6,mapMaxResolution=.25,mapMinResolution=Math.pow(2,mapMaxZoom)*mapMaxResolution,tileExtent=[0,-8192,8192,0],crs=L.CRS.Simple;crs.transformation=new L.Transformation(1,-tileExtent[0],-1,tileExtent[3]),crs.scale=function(r){return Math.pow(2,r)/mapMinResolution},crs.zoom=function(r){return Math.log(r*mapMinResolution)/Math.LN2};var map=new L.Map("map",{maxZoom:mapMaxZoom,minZoom:mapMinZoom,crs:crs});layer=L.tileLayer("{z}/{x}/{y}.png",{minZoom:mapMinZoom,maxZoom:mapMaxZoom,tileSize:512,attribution:'Dispatcher Bot',noWrap:!0,tms:!1}).addTo(map),map.fitBounds([crs.unproject(L.point(mapExtent[2],mapExtent[3])),crs.unproject(L.point(mapExtent[0],mapExtent[1]))]),L.control.mousePosition().addTo(map);
 
 var numMarker = L.Icon.extend({
-  options: {
-    iconSize: [32,37],
-    iconAnchor: [16,37]
+  options:{
+    iconSize:[32,37],
+    iconAnchor:[16,37]
   }
 });
 
 var cardIcon1 = new numMarker({
-  iconUrl: "markers/ammu.png"
+  iconUrl:"markers/ammu.png"
 });
+
+var marker = null;
 
 // Ajout du gestionnaire d'événements pour le changement du hash de l'URL
 map.on('hashchange', function() {
@@ -41,33 +24,20 @@ map.on('hashchange', function() {
     const markerLat = parseFloat(markerCoords[0]);
     const markerLng = parseFloat(markerCoords[1]);
 
-    // Création d'un marqueur à partir des coordonnées récupérées
-    const marker = L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
+    // Suppression du marqueur précédent s'il existe
+    if (marker !== null) {
+      map.removeLayer(marker);
+    }
 
-    // Ajustement de la vue de la carte pour afficher le marqueur
+    // Création d'un nouveau marqueur à partir des coordonnées récupérées
+    marker = L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
+
+    // Ajustement de la vue de la carte pour afficher le nouveau marqueur
     map.setView([markerLat, markerLng], 6);
   } else {
     console.log('Pas de marqueur dans l\'URL.');
   }
 });
-
-// Ajout de la couche de tuiles à la carte
-L.tileLayer("{z}/{x}/{y}.png", {
-  minZoom: mapMinZoom,
-  maxZoom: mapMaxZoom,
-  tileSize: 512,
-  attribution: 'Dispatcher Bot',
-  noWrap: true,
-  tms: false
-}).addTo(map);
-
-// Ajustement de la vue de la carte pour afficher l'ensemble de la carte
-map.fitBounds([
-  crs.unproject(L.point(mapExtent[2],mapExtent[3])),
-  crs.unproject(L.point(mapExtent[0],mapExtent[1]))
-]);
-
-L.control.mousePosition().addTo(map);
 
 // Initialisation du gestionnaire d'URL
 var hash = new L.Hash(map);
