@@ -12,11 +12,7 @@ var cardIcon1 = new numMarker({
 });
 
 
-
-// Initialisation du gestionnaire d'URL
-var hash = new L.Hash(map);
-
-if (window.location.href.indexOf('?marker=') !== -1) {
   var markerCoord = window.location.href.split('?marker=')[1].split(',');
-   L.marker([markerCoord[0], markerCoord[1]]).addTo(map);
-}
+   var marker = L.marker([markerCoord[0], markerCoord[1]]).addTo(map);
+
+var hash = new L.Hash(map);
