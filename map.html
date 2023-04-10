@@ -33,7 +33,27 @@
     <div id="map"></div>
 	     <script src="js/core.js"></script>
 
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+if (map) {
+  // La carte existe déjà, supprimer tous les marqueurs existants
+  map.eachLayer(function (layer) {
+    if (layer instanceof L.Marker) {
+      map.removeLayer(layer);
+    }
+  });
+} else {
+  // La carte n'existe pas encore, créer une nouvelle instance
+  console.error();
+}
 
+// Ajouter un marqueur si le paramètre marker est présent dans l'URL
+if (urlParams.has('marker')) {
+  const markerParam = urlParams.get('marker').split(',');
+  const latlng = L.latLng(parseFloat(markerParam[0]), parseFloat(markerParam[1]));
+  const marker = L.marker(latlng).addTo(map);
+}
+	  </script>
 
   </body>
 </html>
