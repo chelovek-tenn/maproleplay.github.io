@@ -13,5 +13,7 @@ if (urlParams.has('marker')) {
 
   // Ajustement de la vue de la carte pour afficher le marqueur
   map.setView([markerLat, markerLng], 6);
+} else {
+console.log('erreur gggg')
 }
 
