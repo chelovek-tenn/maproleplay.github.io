@@ -34,12 +34,7 @@
 	     <script src="js/core.js"></script>
 <script>
   var markerCoord = window.location.href.split('?marker=')[1].split(',');
-const circle = L.circle([markerCoord[1], markerCoord[0]], {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5,
-		radius: 50
-	}).addTo(map).bindPopup('I am a circle.');</script>
+const circle = L.marker([markerCoord[1], markerCoord[0]]).addTo(map).bindPopup('Position envoyé.');</script>
 
 
   </body>
