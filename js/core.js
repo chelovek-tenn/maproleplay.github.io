@@ -11,18 +11,7 @@ var cardIcon1 = new numMarker({
   iconUrl:"markers/ammu.png"
 });
 
-var urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('marker')) {
-  var markerCoords = urlParams.get('marker').split(',');
-  var markerLat = parseFloat(markerCoords[0]);
-  var markerLng = parseFloat(markerCoords[1]);
 
-  // Création d'un marqueur à partir des coordonnées récupérées
-L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
-
-  // Ajustement de la vue de la carte pour afficher le marqueur
-  map.setView([markerLat, markerLng], 6);
-}
 
 // Initialisation du gestionnaire d'URL
 var hash = new L.Hash(map);
