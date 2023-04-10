@@ -19,3 +19,4 @@ var hash = new L.Hash(map);
 if (window.location.href.indexOf('?marker=') !== -1) {
   var markerCoord = window.location.href.split('?marker=')[1].split(',');
   var marker = L.marker([markerCoord[0], markerCoord[1]]).addTo(map);
+}
