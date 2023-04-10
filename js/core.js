@@ -11,33 +11,18 @@ var cardIcon1 = new numMarker({
   iconUrl:"markers/ammu.png"
 });
 
-var marker = null;
+var urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('marker')) {
+  var markerCoords = urlParams.get('marker').split(',');
+  var markerLat = parseFloat(markerCoords[0]);
+  var markerLng = parseFloat(markerCoords[1]);
 
-// Ajout du gestionnaire d'événements pour le changement du hash de l'URL
-map.on('hashchange', function() {
-  const urlParams = new URLSearchParams(window.location.search);
+  // Création d'un marqueur à partir des coordonnées récupérées
+  var marker = L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
 
-  // Vérification de la présence du paramètre "marker" dans l'URL
-  if (urlParams.has('marker')) {
-    // Récupération des coordonnées du marqueur depuis le paramètre "marker"
-    const markerCoords = urlParams.get('marker').split(',');
-    const markerLat = parseFloat(markerCoords[0]);
-    const markerLng = parseFloat(markerCoords[1]);
-
-    // Suppression du marqueur précédent s'il existe
-    if (marker !== null) {
-      map.removeLayer(marker);
-    }
-
-    // Création d'un nouveau marqueur à partir des coordonnées récupérées
-    marker = L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
-
-    // Ajustement de la vue de la carte pour afficher le nouveau marqueur
-    map.setView([markerLat, markerLng], 6);
-  } else {
-    console.log('Pas de marqueur dans l\'URL.');
-  }
-});
+  // Ajustement de la vue de la carte pour afficher le marqueur
+  map.setView([markerLat, markerLng], 6);
+}
 
 // Initialisation du gestionnaire d'URL
 var hash = new L.Hash(map);
