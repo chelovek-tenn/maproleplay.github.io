@@ -11,14 +11,11 @@ var cardIcon1 = new numMarker({
   iconUrl:"markers/ammu.png"
 });
 
-const markerParam = window.location.search.split('?')[1].split('&')[0];
-if (markerParam) {
-  const markerLatLng = markerParam.split(',')[0].split('.');
-  const markerLat = +markerLatLng[0];
-  const markerLng = +markerLatLng[1];
-}
-const marker = new L.Marker([markerLat, markerLng], { icon: cardIcon1 });
-map.addLayer(marker);
+
 
 // Initialisation du gestionnaire d'URL
 var hash = new L.Hash(map);
+
+if (window.location.href.indexOf('?marker=') !== -1) {
+  var markerCoord = window.location.href.split('?marker=')[1].split(',');
+  var marker = L.marker([markerCoord[0], markerCoord[1]]).addTo(map);
