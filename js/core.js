@@ -18,7 +18,7 @@ if (urlParams.has('marker')) {
   var markerLng = parseFloat(markerCoords[1]);
 
   // Création d'un marqueur à partir des coordonnées récupérées
-  var marker = L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
+L.marker([markerLat, markerLng], {icon: cardIcon1}).addTo(map);
 
   // Ajustement de la vue de la carte pour afficher le marqueur
   map.setView([markerLat, markerLng], 6);
