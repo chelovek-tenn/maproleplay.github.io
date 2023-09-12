@@ -38,7 +38,7 @@
 	map.on('click', function(e) {
   var lat = e.latlng.lat.toFixed(2);
   var lng = e.latlng.lng.toFixed(2);
-  var url = "https://dispatcher-bot.io/maproleplay.github.io/map.html#1/-4096/4096?marker=" + lng + "," + lat;
+  var url = "https://dispatcher-bot.github.io/maproleplay.github.io/map.html#1/-4096/4096?marker=" + lng + "," + lat;
   navigator.clipboard.writeText(url).then(function() {
     var alertPopup = L.popup().setContent("URL copiée dans le presse-papiers !");
     alertPopup.setLatLng(e.latlng).openOn(map);
