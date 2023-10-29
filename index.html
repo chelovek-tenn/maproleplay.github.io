@@ -34,24 +34,7 @@
 
     <div id="map"></div>
     <script src="js/core.js"></script>
-	  <script>
-	map.on('click', function(e) {
-  var lat = e.latlng.lat.toFixed(2);
-  var lng = e.latlng.lng.toFixed(2);
-  var url = "https://dispatcher-bot.github.io/maproleplay.github.io/map.html#1/-4096/4096?marker=" + lng + "," + lat;
-  navigator.clipboard.writeText(url).then(function() {
-    var alertPopup = L.popup().setContent("URL copiée dans le presse-papiers !");
-    alertPopup.setLatLng(e.latlng).openOn(map);
-    setTimeout(function() {
-      map.closePopup(alertPopup);
-    }, 2000);
-  }, function() {
-    alert("Erreur lors de la copie de l'URL !");
-  });
-});
-		  
-
-	  </script>
+    <script src="js/markers.js"></script>
   </body>
 </html>
 <! © 2023 DispatcherBOT>
